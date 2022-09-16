@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    display: grid;
+  height: 100%;
+  place-items: center;
+  
+    background: white;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+  overflow: hidden;
+  color: gray;
+
+  
+}
+
+.nueUi{
+    position: absolute;
+    overflow-x: hidden;
+    overflow-x: auto;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    height: 80%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border-radius: 4px solid;
+   background: white;
+
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;  
+}
+.nueUi1{
+position: absolute;
+    overflow-x: hidden;
+    overflow-x: auto;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    height: 80%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border-radius: 4px solid;
+   background: white;
+
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+; 
+}
+
+nav ul li{
+  
+    list-style-type: none;
+    float: right;   
+  padding: 10px;
+  text-align: left;
+ text-decoration: none;
+  height: 20px;
+  font-size: 15px;
+}
+nav ul li a{
+     
+    text-decoration: none;
+    background: white;
+    padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #f0f1f3, inset 6px 6px 6px white;
+    color: gray;
+}
+
+.info-container{
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    padding: 50px;
+    grid-column-gap: 180px;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-column-gap: 150px;
+    font-size: 15px;
+    padding: 80px;  */
+}
+.info-container .heading{
+   margin-top: 80px;
+   width: 40%;
+    float: left;
+    text-align: left;
+}
+.info-container .heading p{
+    float: right;
+}
+.info-container hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+hr{
+  margin-left: 220px;
+  margin-right: 220px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+ 
+}
+.heading h1{
+  margin-top: -100px;
+}
+.macVSpc{
+  margin: 20px;
+}
+.macVSpc h1{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+
+
+
+
+.best-OS-pic{
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12)
+; 
+}
+
+
+#macVSwin-img{ 
+    width: 40%;
+    background-image: url("../images/mac_vs_windows.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;  
+
+}
+#macVSwin-img button{
+    width: 100px;
+    height: 30px;
+    margin-top: 350px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+#gadget-img{ 
+    width: 40%;
+    background-image: url("../images/gadget.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+   box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;  
+
+}
+#gadget-img button{
+    width: 100px;
+    height: 30px;
+    margin-top: 350px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#desksetup-img{ 
+    width: 40%;
+    background-image: url("../images/whtstup.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;  
+
+}
+#desksetup-img button{
+    width: 50%;
+    height: 30px;
+    margin-top: 350px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#monitor-img{ 
+    width: 40%;
+    background-image: url("../images/monitor.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+ left: 20px;
+    margin-top: 10px;
+   box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;  
+
+}
+#monitor-img button{
+    width: 50%;
+    height: 30px;
+    margin-top: 350px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* gadgets*/
+.gadget-pic{
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.icons{
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.icons a{
+    background: #ecf0f3;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    margin: 0 10px;
+    display: inline-flex;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.3s;
+    box-shadow: -3px -3px 7px #ffffff,
+                3px 3px 5px #ceced1;
+  }
+  .icons a:hover:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #ecf0f3;
+    box-shadow: inset -3px -3px 7px #ffffff,
+                inset 3px 3px 5px #ceced1;
+  }
+  .icons a i{
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    line-height: 60px;
+  }
+  .icons a:hover i{
+    transform: scale(0.9);
+  }
+  .icons a.fb i{
+    color: #4267B2;
+  }
+  .icons a.twitter i{
+    color: #1DA1F2;
+  }
+  .icons a.insta i{
+    color: #E1306C;
+  }
+  .icons a.git i{
+    color: #333;
+  }
+  .icons a.yt i{
+    color: #ff0000;
+  }
+ 
+span {
+  content: "\00A9";
+}
+.design{
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 10px;
+  margin: 15px;
+}
