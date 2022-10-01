@@ -9,18 +9,21 @@
     <title>Best YouTube Channel</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="whatsnew.html">What's New</a></li>
-            <li><a href="learn.html">Learn</a></li>
-            <li><a href="tech.html">Tech</a></li>
-            <li><a href="index.html">Home</a></li>
-            
-        </ul>
-        <img src="/images/coderConerGB-removebg.png" width="100" height="100" margin="0" padding="0" alt="">
-    </nav>
-    <div class="container">         
+    <div class="topnav">
+        <a href="#home" class="active">Logo</a>
+        
+        <div id="myLinks">
+           <a href="/index.html" onclick="redirect()">Home</a> 
+           <a href="/htmlFiles/tech.html">Tech</a>
+           <a href="/htmlFiles/learn.html">Learn</a>
+           <a href="#contact">What's New</a>
+          <a href="#news">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <div class="container-YT">         
                     <h1 id="top-10">Top YouTube Channels To Learn Computer Programming</h1>
                     <p id="intro">It has never been easier to learn computer programming with so many high-quality resources 
                         all over the internet.  One of the best online sources for tutorials is YouTube.
@@ -30,37 +33,38 @@
                         Below is a list of the best YouTube channels to learn computer programming.
                     </p>
                     <hr>
-         <div class="YT-container">
-               <div>
-                   <section>
-                       <h1>1. Programming knowledge</h1>
-                       <div class="grid-YT">
-                           <img class="webpage" src="/images/YT-programmingKnowledge.png" alt="">
-                           <p>
+          <div class="YTContainer">
+                
+                <img class="webpage" src="/images/YT-programmingKnowledge.png" alt="">
+                <div class="grid-YT">
+                         <h1>1. Programming knowledge</h1>                        
+                         <p>
                                Channel Link: <a href="https://www.youtube.com/c/ProgrammingKnowledge" target="_blank">https://www.youtube.com/c/ProgrammingKnowledge</a><br>
                                Subscribers:  1.55M           <br>
                                Total Videos:                 <br>
                                Total Views:  241,420,950     <br>
-                            
+                          
+                               <div>
                              <b>Topics covered by programming knowledge: </b> 
-                               <ul id="topics">
+                              
                                    <li>C</li>
                                    <li>C++</li>
                                    <li>Java</li>
                                    <li>Python</li>
                                    <li>Javascript</li>
                                    <li>plus more...</li>
-                               </ul>
+                              
+                               </div>
                            </p>
                        </div>
-                   </section>
-               </div> 
+                 </div>
+           
 
-               <div>
-                <section>
-                    <h1>2. FreeCodeCamp</h1>
+               <div class="YTContainer">
+                 <img class="webpage" src="/images/YT-freecodCamp.png" alt="">
+                   
                     <div class="grid-YT">
-                        <img class="webpage" src="/images/YT-freecodCamp.png" alt="">
+                       <h1>2. FreeCodeCamp</h1>  
                         <p>
                             Channel Link: <a href="https://www.youtube.com/c/Freecodecamp" target="_blank">https://www.youtube.com/c/Freecodecamp</a><br>
                             Subscribers:  5.59M           <br>
@@ -68,7 +72,7 @@
                             Total Views:  357,266,712     <br>
 
                             <b>Topics covered by FreeCodeCamp </b>
-                            <ul id="topics">
+                            
                                 <li>C</li>
                                 <li>C++</li>
                                 <li>Java</li>
@@ -78,17 +82,17 @@
                                 <li>Database (SQL noSql, Analysis)</li>
                                 <li>Asp.net</li>
                                 <li>plus more...</li>
-                            </ul>
+                       
                         </p>
                     </div>
-                </section>
-            </div> 
+             </div>
+         
 
-            <div>
-                <section>
+            <div class="YTContainer">
+                <img class="webpage" src="/images/YT-mosh.png" alt="">
+          <div class="grid-YT">
                     <h1>3. Programming With Mosh</h1>
-                    <div class="grid-YT">
-                        <img class="webpage" src="/images/YT-mosh.png" alt="">
+                    
                         <p>
                             Channel Link: <a href="https://www.youtube.com/c/programmingwithmosh" target="_blank">https://www.youtube.com/c/programmingwithmosh</a><br>
                             Subscribers:   2.49M         <br>
@@ -96,7 +100,7 @@
                             Total Views:   118,130.772  <br>
 
                             <b>Topics covered by </b>
-                            <ul id="topics">
+                          
                                 <li>Java</li>
                                 <li>React Native</li>
                                 <li>Javascript</li>
@@ -104,18 +108,18 @@
                                 <li>HTML</li>
                                 <li>Express, Node.js</li>
                                 <li>plus more...</li>
-                            </ul>
+                         
                             
                         </p>
                     </div>
-                </section>
+                
             </div> 
 
-            <div>
-                <section>
-                    <h1>4. Traversy Media </h1>
+            <div class="YTContainer">
+                <img class="webpage" src="/images/YT-traversyMedia.png" alt="">              
+                 
                     <div class="grid-YT">
-                        <img class="webpage" src="/images/YT-traversyMedia.png" alt="">
+                           <h1>4. Traversy Media </h1>
                         <p>
                             Channel Link: <a href="https://www.youtube.com/c/TraversyMedia" target="_blank">https://www.youtube.com/c/TraversyMedia</a><br>
                             Subscribers:  1.85M                <br>
@@ -123,23 +127,22 @@
                             Total Views:                  <br>
 
                             <b>Topics covered by Traversy Media</b>
-                            <ul id="topics">
+                         
                                 <li>HTML/CSS/Javascript</li>
                                 <li>React</li>
                                 <li>Express, Node.js</li>
                                 <li>Python</li>
                                 <li>plus more...</li>
-                            </ul>
+                            
                         </p>
                     </div>
-                </section>
             </div> 
 
-            <div>
-                <section>
-                    <h1>5. Net Ninja</h1>
-                    <div class="grid-YT">
-                        <img class="webpage" src="/images/YT-netninja.png" alt="">
+            <div class="YTContainer">
+             <img class="webpage" src="/images/YT-netninja.png" alt="">
+             <div class="grid-YT">       
+             <h1>5. Net Ninja</h1>
+                    
                         <p>
                             Channel Link: <a href="https://www.youtube.com/c/TheNetNinja/videos" target="_blank">https://www.youtube.com/c/TheNetNinja/videos</a><br>
                             Subscribers:   933K           <br>
@@ -147,7 +150,7 @@
                             Total Views:   144,824,454    <br>
 
                             <b>Topics covered by Net Ninja: </b>
-                            <ul id="topics">
+                           
                                 <li>HTML/CSS/Javascript</li>
                                 <li>React</li>
                                 <li>Node.js</li>
@@ -156,17 +159,16 @@
                                 <li>MongoDB</li>
                                 <li>PHP&MySQl</li>
                                 <li>plus more...</li>
-                            </ul>
+                           
                         </p>
                     </div>
-                </section>
             </div> 
 
-            <div>
-                <section>
+            <div class="YTContainer">
+          <img class="webpage" src="/images/YT-codeWithChris.png" alt="">
+       <div class="grid-YT">
                     <h1>6. CodeWithChris </h1>
-                    <div class="grid-YT">
-                        <img class="webpage" src="/images/YT-codeWithChris.png" alt="">
+                   
                         <p>
                             Channel Link: <a href="https://www.youtube.com/c/CodeWithChris/videos" target="_blank">https://www.youtube.com/c/CodeWithChris/videos</a><br>
                             Subscribers:   507K               <br>
@@ -174,20 +176,20 @@
                             Total Views:   36,535,185               <br>
 
                             <b>Topics covered by CodeWithChris </b>
-                            <ul id="topics">
+                           
                                 <li>Swift</li>
                                 <li>Firebase</li>
-                            </ul>
+                          
                         </p>
                     </div>
-                </section>
+               
             </div> 
 
-            <div>
-                <section>
-                    <h1>7. WebDevSimplified </h1>
-                    <div class="grid-YT">
+            <div class="YTContainer">
                         <img class="webpage" src="/images/YT-webdevSim.png" alt="">
+             <div class="grid-YT">
+                    <h1>7. WebDevSimplified </h1>
+                   
                         <p>
                             Channel Link: <a href="https://www.youtube.com/c/WebDevSimplified" target="_blank">https://www.youtube.com/c/WebDevSimplified</a><br>
                             Subscribers:  930K                <br>
@@ -195,7 +197,7 @@
                             Total Views:  63,152,113      <br>
 
                             <b>Topics covered by WebDevSimplified</b>
-                            <ul id="topics">
+                           
                                 <li>HTML/CSS</li>
                                 <li>Javascript</li>
                                 <li>React</li>
@@ -203,17 +205,17 @@
                                 <li>MongoDB</li>
                                 <li>SQL</li>
                                 <li>Node.js</li>
-                            </ul>
+                           
                         </p>
                     </div>
-                </section>
+               
             </div> 
 
-            <div>
-                <section>
-                    <h1>8. Tech With Tim </h1>
-                    <div class="grid-YT">
+            <div class="YTContainer">
                         <img class="webpage" src="/images/YT-techWithTim.png" alt="">
+                 <div class="grid-YT">
+                    <h1>8. Tech With Tim </h1>
+                   
                         <p>
                             Channel Link: <a href="https://www.youtube.com/c/TechWithTim" target="_blank">https://www.youtube.com/c/TechWithTim</a><br>
                             Subscribers:  980k                <br>
@@ -221,7 +223,7 @@
                             Total Views:  83,578982                <br>
 
                             <b>Topics covered by Tech With Tim</b>
-                            <ul id="topics">
+                            
                                 <li>Python</li>
                                 <li>MongoDB</li>
                                 <li>Rust</li>
@@ -229,17 +231,17 @@
                                 <li>Javascript</li>
                                 <li>Java</li>
                                
-                            </ul>
+                         
                         </p>
                     </div>
-                </section>
+              
             </div> 
 
-            <div>
-                <section>
+            <div class="YTContainer">
+                <img class="webpage" src="/images/YT-BroCode.png" alt="">
+               <div class="grid-YT">
                     <h1>9. Bro Code </h1>
-                    <div class="grid-YT">
-                        <img class="webpage" src="/images/YT-BroCode.png" alt="">
+                  
                         <p>
                             Channel Link: <a href="https://www.youtube.com/c/BroCodez" target="_blank">https://www.youtube.com/c/BroCodez</a><br>
                             Subscribers:   429k               <br>
@@ -247,7 +249,7 @@
                             Total Views:   18,201,862               <br>
 
                             <b>Topics covered by Bro Code </b>
-                            <ul id="topics">
+                           
                                 <li>Python</li>
                                 <li>HTML/CSS</li>
                                 <li>C#</li>
@@ -255,17 +257,17 @@
                                 <li>Javascript</li>
                                 <li>Java</li>
                                
-                            </ul>
+                           
                         </p>
                     </div>
-                </section>
+               
             </div> 
 
-            <div>
-                <section>
+            <div class="YTContainer">
+            <img class="webpage" src="/images/YT-DerekBanas.png" alt="">
+               <div class="grid-YT">
                     <h1>10. Derek Banas </h1>
-                    <div class="grid-YT">
-                        <img class="webpage" src="/images/YT-DerekBanas.png" alt="">
+                   
                         <p>
                             Channel Link: <a href="https://www.youtube.com/c/derekbanas" target="_blank">https://www.youtube.com/c/derekbanas</a><br>
                             Subscribers:   1.18M               <br>
@@ -273,7 +275,7 @@
                             Total Views:   113,036,416               <br>
 
                             <b>Topics covered by Derek Banas </b>
-                            <ul id="topics">
+                          
                                 <li>Python</li>
                                 <li>React</li>
                                 <li>C#</li>
@@ -282,11 +284,11 @@
                                 <li>Java</li>
                                 <li>Plus More...</li>
                                
-                            </ul>
+                          
                         </p>
                     </div>
-                </section>
-            </div> 
+               
+         
 
     </div>
 </div>
@@ -299,5 +301,21 @@
             <a href="#" class="yt"><i class="fab fa-youtube"></i></a>
           </div>
     </footer>
+    <div class="design">
+        <p>design by <b>NEKEISHA POPE </b></p>
+        
+        <span>&#169; copywrite</span>
+    </div>
+    <script>
+        
+      function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+    }
+    </script>
 </body>
 </html>

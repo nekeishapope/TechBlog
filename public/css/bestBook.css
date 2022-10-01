@@ -39,6 +39,31 @@ hr{
     0 100px 80px rgba(0, 0, 0, 0.12)
   ;  
 }
+.container-YT{
+    position: absolute;
+    overflow-x: hidden;
+    overflow-x: auto;
+    left: 50%;
+    top: 50%;
+    width: 85%;
+    height: 80%;
+    margin-left: -10px;
+    margin-top: -10px;
+    border-radius: 4px solid;
+    background: white;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;  
+
+}
+
 .web-container{
 
   position: absolute;
@@ -63,10 +88,11 @@ hr{
   0 100px 80px rgba(0, 0, 0, 0.12)
 ;  
 }
-.YT-container > div{
-  padding-bottom: 10px 0px;
-  font-size: 30px;
+.web-container h1{
+  text-align: center;
 }
+
+
 #top-10{
   color: rgb(24, 24, 24);
   text-align: center;
@@ -106,10 +132,33 @@ hr{
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-gap: 9px;
 }
-.web-container section{
+/* .web-container section{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-gap: 9px;
+} */
+div .web-grid{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+grid-gap: 9px;
+  
+}
+.web-container div{
+  margin: 20px;
+}
+.web-grid p{
+  font-size: 1.5vw;
+  margin-top: 20px;
+}
+.web-grid img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 90px;
+}
+.web-container section h1{
+  margin-bottom: 50px;
+  font-size: 3vw;
+  margin-left: 10px;
 }
 .books{
   /*
@@ -171,16 +220,7 @@ div .grid{
   padding: 80px; 
   */
 }
-div .web-grid{
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: 50% 50%;
-  grid-template-areas: 'item item';
-  width: 90%;
-  height: 70%;
-  padding: 80px; 
-  
-}
+
 
 .grid p img{
   margin-top: 10px;
@@ -192,16 +232,21 @@ font-size: 2vw;
 margin-left: 60px;
 margin-top: 40px;
 }
-div .grid-YT{
+.YTContainer{
+  margin: 20px; 
   display: grid;
-  grid-template-columns: auto auto;
-  grid-gap: 10px;
-  width: 90%;
-  height: 70%;
-  padding: 80px; 
-  margin-bottom: -410px;
-  
-     
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-gap: 9px;
+  margin-bottom: 45px;
+  font-size: 1.5vw;
+}
+.grid-YT li{
+list-style: none;
+ margin-left: 20px;
+}
+.YTContainer img{
+  width: 70%;
+  height: 80%;
 }
 section div p{
     font-size: 19px;
@@ -405,8 +450,23 @@ section .book-name
 .web-container .web-grid{
   margin: 0 auto;
   display: block;
-  margin-bottom: 50px;
   text-align: center;
+}
+.web-container section h1{
+  margin-top: 7px;
+}
+.web-container .web-grid  p{
+  margin-top: -5px;
+}
+.web-container h1:nth-child(1){
+  font-size: 5vw;
+  text-align: center;
+}
+.web-grid p{
+  font-size: 3.5vw;
+}
+.web-container .web-grid img{
+  margin-bottom: 10px;
 }
 .grid .review{
   position: absolute;
@@ -424,9 +484,6 @@ div section h1{
 .grid{
   position: relative;
 }
-.grid .books{
-
-}
 
 .grid p {position:absolute; font-size: 15px; display: block;
 margin-top: 500px;
@@ -434,8 +491,20 @@ padding-bottom: 10px;
 }
 .grid p img {width: 250px;}
 .book-name{font-size: 20px;}
-.icons a {width: 30px;height: 30px; margin-bottom: 10px;}
+
+.YTContainer img{
+  width: 100%;
+  height: 100%;
+}
+.grid-YT{
+  font-size: 3vw;
+}
+
+.icons a {width: 0px; height: 0px; margin-bottom: 45px;
+padding-left: 10px;
+}
 .icons a i{font-size: 20px; ;line-height: 30px; margin-bottom: 5px;}
+.icons{margin-left: 45px; }
 
 }
 @media all and (min-width:481px) and (max-width:767px)
@@ -481,8 +550,7 @@ padding-bottom: 10px;
     display: block;
     position: absolute;
     right: 0;
-    top: 0;
-   
+    top: 0; 
   }
   
   .topnav a:hover {
@@ -538,6 +606,45 @@ padding-bottom: 10px;
 }
 .grid p img {width: 250px;}
 .book-name{font-size: 20px;}
+
+.web-container .web-grid{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.web-container .web-grid  p{
+  margin-top: -5px;
+}
+.web-container h1:nth-child(1){
+  font-size: 5vw;
+  text-align: center;
+}
+.web-grid p{
+  font-size: 3.5vw;
+}
+.web-container .web-grid img{
+  margin-bottom: 10px;
+}
+.web-grid p{
+  font-size: 3vw;
+}
+.web-container section h1{
+  margin-top: 15px;
+}
+.YTContainer img{
+  width: 95%;
+  height: 95%;
+}
+.grid-YT{
+  font-size: 3.3vw;
+}
+.YTContainer{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+ 
+  
+}
 .icons a {width: 30px;height: 30px; margin-bottom: 10px;}
 .icons a i{font-size: 20px; ;line-height: 30px; margin-bottom: 5px;}
 }
@@ -559,6 +666,20 @@ padding-bottom: 10px;
   .grid p img{
     width: 270px;
   }
+  .YTContainer{
+    margin: 90px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-YT{
+    margin-left: 20px;
+    
+  }
+  .YTContainer img{
+    width: 95%;
+    height: 95%;
+  }
 /* WEBSITE GRID*/
 
 
@@ -577,6 +698,21 @@ padding-bottom: 10px;
   }
   .grid p img{
     width: 270px;
+  }
+  .YTContainer{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+    
+  }
+  .YTContainer img{
+    width: 95%;
+    height: 95%;
+  }
+  .grid-YT{
+    font-size: 3.3vw;
+    
   }
 }
 

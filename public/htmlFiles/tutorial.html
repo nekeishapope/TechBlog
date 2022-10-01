@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/tutorial.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <title>Tutorials</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="#home" class="active">Logo</a>
+        
+        <div id="myLinks">
+           <a href="/index.html" onclick="redirect()">Home</a> 
+           <a href="/htmlFiles/tech.html">Tech</a>
+           <a href="/htmlFiles/learn.html">Learn</a>
+           <a href="#contact">What's New</a>
+          <a href="#news">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <div class="tab">
+        <button class="linkButton" onclick="ProgrammingLang(event, 'Cplus' )" id="defaultOpen">
+            C Plus Plus
+        </button>
+        <button class="linkButton" onclick="ProgrammingLang(event, 'C' )">
+            C
+        </button>
+        <button class="linkButton" onclick="ProgrammingLang(event, 'Linux' )">
+            Linux
+        </button>
+        <button class="linkButton" onclick="ProgrammingLang(event, 'SQL' )">
+            SQL
+        </button>
+        <button class="linkButton" onclick="ProgrammingLang(event, 'Robotic' )">
+            Robotic
+        </button>
+        <button class="linkButton" onclick="ProgrammingLang(event, 'DBA Database Administration' )">
+            DBA(Database Administration)
+        </button>
+        <button class="linkButton" onclick="ProgrammingLang(event, 'CSS' )">
+            CSS
+        </button>
+        <button class="linkButton" onclick="ProgrammingLang(event, 'HTML' )">
+            HTML
+        </button>
+        <button class="linkButton" onclick="ProgrammingLang(event, 'Javascript' )">
+            Javascript
+        </button>
+    </div>
+
+
+
+    <div id="Cplus" class="linkContent">
+        <h3>C++ Tutorials</h3>
+       <ul class="card-wrapper">
+            <li class="card">
+              <img src='' alt=''>
+              <h3><a href="">A Super Wonderful Headline</a></h3>
+              <p>Lorem ipsum sit dolor amit</p>
+            </li>
+            <li class="card">
+              <img src='' alt=''>
+              <h3><a href="">What a Fantabulous Title!</a></h3>
+              <p>Lorem ipsum sit dolor amit</p>
+            </li>
+            <li class="card">
+              <img src='' alt=''>
+              <h3><a href="">Positively Terrific Title</a></h3>
+              <p>Lorem ipsum sit dolor amit</p>
+            </li>
+          </ul>
+    </div>
+    <div id="C" class="linkContent">
+        <h3>C</h3>
+    </div>
+    <script>
+        function ProgrammingLang(evt, progLang) {
+          var i, linkContent, linkButton;
+          linkContent = document.getElementsByClassName("linkContent");
+          for (i = 0; i < linkContent.length; i++) {
+            linkContent[i].style.display = "none";
+          }
+          linkButton = document.getElementsByClassName("linkButton");
+          for (i = 0; i < linkButton.length; i++) {
+            linkButton[i].className = linkButton[i].className.replace(" active", "");
+          }
+          document.getElementById(progLang).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+
+                
+      function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+    }
+        </script>
+</body>
+</html>

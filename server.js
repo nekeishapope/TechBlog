@@ -56,7 +56,9 @@ app.get('/deskSetup', (req, res) =>{
 app.get('/bestMonitor', (req, res) =>{
     res.sendFile(path.join(__dirname, '/public/htmlFiles/bestMonitor.html'))
 })
-
+app.get('/tutorial', (req, res) =>{
+    res.sendFile(path.join(__dirname, '/public/htmlFiles/tutorial.html'))
+})
 app.get('/whatsnew', (req, res) =>{
 
   res.sendFile(path.join(__dirname, '/public/htmlFiles/whatsnew.html'))
