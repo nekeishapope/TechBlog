@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="all" href="../css/learn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/> 
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <title>Learn</title>
+</head>
+<body>
+  <div class="topnav">
+    <a href="#home" class="active">Logo</a>
+    
+    <div id="myLinks">
+       <a href="../index.html" onclick="redirect()">Home</a> 
+       <a href="tech.html">Tech</a>
+       <a href="learn.html">Learn</a>
+       <a href="#contact">What's New</a>
+      <a href="#news">About</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="NavLearnResponsive()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+ <div class="nueUi"> 
+ 
+    <h1 id="top-10">Top Free Outlets You Can Learn How To Code</h1>
+    <p id="intro">There are many sources that can be used to lean computer PROGRAMMING.
+      Beside school, and paid premium courses, the free outlets are effective as the 
+      paid outlet. Below are several sources for several links you can use to learn computer programming.
+    </p>
+    <hr>
+    <div class="info-container">
+        
+          <img class="book-cover" src="../images/bestbookForProg.jpg" alt="">
+        
+      <div class="heading">
+      <h1>Best Book to learn Computer Programming</h1>
+      <p> 
+      </p>
+      <button  id="explore-Btn" onClick="BBtoLearnProg()">Read More</button>
+      </div> 
+      </div>
+     
+      <div class="info-container">
+        
+          <img class="book-cover" src="../images/interview-books.png" alt="">
+        
+      <div class="heading">
+      <h1>Best book to prepare you for programming interview</h1>
+      <p> 
+      </p>
+      <button  id="explore-Btn" onClick="BBforInterview()">Read More</button>
+      </div>  
+    </div> 
+
+    <div class="info-container">
+        
+          <img class="book-cover" src="../images/best-website.png" alt="">
+       
+      <div class="heading">
+      <h1>Best website to learn programming</h1>
+      <p> 
+      </p>
+      <button  id="explore-Btn" onClick="BWebsite()">Read More</button>
+      </div>  
+    </div> 
+
+    <div class="info-container">
+       
+          <img class="book-cover" src="../images/YTchannel.jpg" alt="">
+        
+      <div class="heading">
+      <h1>Top YouTube channels for programming</h1>
+      <p> 
+      </p>
+      <button  id="explore-Btn" onClick="TopYTChan()" >Read More</button>
+      </div>  
+    </div> 
+   
+</div>
+<div class="design">
+  <p>design by <b>NEKEISHA POPE </b></p>
+  
+  <span>&#169; copywrite</span>
+</div>
+<footer>
+    <div class="icons">
+        <a href="#" class="fb"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="insta"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="git"><i class="fab fa-github"></i></a>
+        <a href="#" class="yt"><i class="fab fa-youtube"></i></a>
+      </div>
+</footer>
+
+<script >
+      function NavLearnResponsive() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function BBtoLearnProg()
+{
+var url = "/htmlFiles/bestBook.html";
+window.location.replace(url);
+}
+function BBforInterview()
+{
+var BBInterviewUrl = "/htmlFiles/bestBookInterview.html";
+window.location.replace(BBInterviewUrl);
+}
+function BWebsite()
+{
+var BWebsiteUrl = "/htmlFiles/bestWebSite.html";
+window.location.replace(BWebsiteUrl);
+}
+function TopYTChan()
+{
+var TopYTChannelUrl = "/htmlFiles/topYTchannel.html";
+window.location.replace(TopYTChannelUrl);
+}
+</script>
+</body>
+</html>
