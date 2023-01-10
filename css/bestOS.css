@@ -16,10 +16,164 @@ body{
     place-items: center;
   overflow: hidden;
   color: gray;
+}
 
+.topnav a img{
+  filter: invert(100%);
+}
+.topnav a img{
+  margin-left: 120px;
+  margin-top: -74px;
+  
+}
+#toggle-ham-icon{
+  margin-top: 120;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(250, 238, 215);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #686868;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidehoverbar .openbtn{
+  position: absolute;
+  top: 0px;
+}
+.topnav #myLinks {
+
+  list-style-type: none;
+  float: right;   
+padding: 10px;
+text-align: left;
+text-decoration: none;
+height: 20px;
+font-size: 2vw;
+margin-left: 340px;
+
+}
+.topnav #myLinks a{
+  text-decoration: none;
+  background: white;
+  font-size: 1.4vw;
+  height: 50px;
+  color: gray;
+  padding-left: 20px;
+  padding: 10px;
+}
+
+
+
+
+.topnav a.icon {
+background: black;
+display: none;
+position: absolute;
+right: 0;
+top: 0;
+}
+.topnav a .icon{
+  width: 10px;
+}
+
+
+.topnav #myLinks a:hover {
+  color:black; 
+  font-size: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+     
+}
+
+
+nav ul {
+   
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+ margin-left: 55%;
+
+}
+
+nav li {
+  margin: 0 1rem;
+  float: right;
+ 
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+  font-size: .8rem;
   
 }
 
+nav a:hover {
+  color: rgb(103, 103, 103);
+}
+
+
+nav .topnav #myLinks {
+  margin-right: 20px;
+margin-top: -45px;
+  list-style-type: none;
+ float: right; 
+  padding: 10px;
+ text-align: left;
+text-decoration: none;
+height: 20px;
+font-size: 15px;
+
+
+}
+nav{
+  display: block;
+}
+.sidehoverbar  {
+  position: fixed;
+  font-size: 12px;
+  Color: white;
+  padding: 0px;
+  border-radius: 0px 25px 25px 0px;
+  left: 120px;
+  list-style-type: none;
+  
+  top: 150px;
+  
+  
+  }
 .nueUi{
     position: absolute;
     overflow-x: hidden;
@@ -93,17 +247,10 @@ nav ul li a{
 }
 
 .info-container{
-    display: grid;
-    grid-auto-columns: minmax(0, 1fr);
-    grid-auto-flow: column;
-    padding: 50px;
-    grid-column-gap: 180px;
-    /*display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    grid-column-gap: 150px;
-    font-size: 15px;
-    padding: 80px;  */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
 }
 .info-container .heading{
    margin-top: 80px;
@@ -361,4 +508,125 @@ span {
   left: 0;
   font-size: 10px;
   margin: 15px;
+}
+
+@media all and (min-width:481px) and (max-width:767px)
+{
+
+  .topnav #myLinks {
+    display: none;
+    width: 100%;
+   height: 320px;
+    float: left;   
+  }
+  .topnav #myLinks a{ 
+    background-color: #333;
+  }
+  .topnav #myLinks a:hover{
+   color: black;
+   background-color: rgb(204, 202, 202);
+   width: 100%;
+   height: 30px; 
+  }
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;  
+  } 
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+  }
+  
+
+  .active {
+    background-color: #4f676f;
+    color: white;
+  }
+  .topnav a img{
+
+    position: relative;
+    top: -14px;
+  }
+  .info-container{
+    margin: 90px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    
+  }
+  .info-container #pc-heading {
+    padding-top: 120px;
+  }
+  nav .openbtn{
+    position: absolute;
+    margin-left: -120px;
+  }
+}
+@media all and (min-width:768px)  and (max-width:992px)
+{
+  .topnav #myLinks {
+    display: none;
+    width: 100%;
+   height: 320px;
+    float: left;   
+  }
+  .topnav #myLinks a{ 
+    background-color: #333;
+  }
+  .topnav #myLinks a:hover{
+   color: black;
+   background-color: rgb(204, 202, 202);
+   width: 100%;
+   height: 30px; 
+  }
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;  
+  } 
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+  }
+  
+
+  .active {
+    background-color: #4f676f;
+    color: white;
+  }
+  .topnav a img{
+
+    position: relative;
+    top: -14px;
+  }
+  .info-container{
+    margin: 90px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    
+  }
+  .info-container #pc-heading {
+    padding-top: 120px;
+  }
+  nav .openbtn{
+    position: absolute;
+    margin-left: -120px;
+  }
+
 }

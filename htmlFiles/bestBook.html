@@ -11,55 +11,74 @@
     <title>Best Books For Programmers</title>
 </head>
 <body>
-    <div class="topnav">
-        <a href="#home" class="active">Logo</a>
-        
-        <div id="myLinks">
-           <a href="../index.html" onclick="redirect()">Home</a> 
-           <a href="tech.html">Tech</a>
-           <a href="learn.html">Learn</a>
-           <a href="#contact">What's New</a>
-          <a href="#news">About</a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+    <nav>
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../public/htmlFiles/bestBook.html">Books</a>
+        <a href="../public/htmlFiles/bestBookInterview.html">Interview Books</a>
+        <a href="../public/htmlFiles/bestKeyboard.html">Keyboard</a>
+        <a href="../public/htmlFiles/bestMonitor.html">Monitor</a>
+        <a href="../public/htmlFiles/bestWebSite.html">Website</a>
+        <a href="../public/htmlFiles/deskSetup.html">Desk Setup</a>
+        <a href="../public/htmlFiles/gadgets.html">Gadgets</a>
+        <a href="../public/htmlFiles/tech.html">Tech</a>
+        <a href="../public/htmlFiles/topYTchannel.html">Top YouTube Channels</a>
+        <a href="../public/htmlFiles/macVSpc.html">Best Operating System</a>
       </div>
-    <!--<nav>
-        <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="whatsnew.html">What's New</a></li>
-            <li><a href="learn.html">Learn</a></li>
-            <li><a href="tech.html">Tech</a></li>
-            <li><a href="index.html">Home</a></li>
-            
-        </ul>
-        <img src="/images/coderConerGB-removebg.png" width="100" height="100" alt="">
-    </nav>-->
-    <div class="container">
+      <span class="open-btn" style="font-size:33px;cursor:pointer; 
+      margin-left: 90px; color: black;
+      " 
+      onclick="openNav()">&#9776;</span>
 
+<div class="topnav">
+    <a href="#home" >
+        <img src="../images/narelogo.png" alt="" width="110px" height="100px">
+
+    </a>
+    
+    <div id="myLinks">
+       <a href="../index.html" onclick="redirect()">Home</a> 
+       <a href="../public/htmlFiles/tech.html">Tech</a>
+       <a href="../public/htmlFiles/gadgets.html">Gadgets</a>
+       <a href="../public/htmlFiles/deskSetup.html">Desk Setup</a>
+      <a href="#news">About</a>
+    </div>
+    <!-- <a href="javascript:void(0);" class="icon" onclick="scrollFunction()">
+      <i class="fa fa-bars"></i>
+    </a> -->
+  </div></nav>
+    <div class="container">
+       
         
     <h1 id="top-10">TOP 10 BOOKS TO START YOUR PROGRAMMING JOURNEY</h1>
-    <p id="intro">When it come to learning my go to devices are books over electronics. <br>
-    Not only reading from books give your eyes a break from the computer light after long hours of coding
-    I find that read books gives me a better understanding of the topic and I will retain the information longer.
-    
-    There are a wide variety of books that can be helpful in the progression in learning computer programming.
-    I will list the top 10 books that is very useful in aiding to your leaning experience. 
+    <p id="intro">There are many great computer programming books out there, 
+        and it's tough to say which one would be the best summary for everyone. 
+        Here are the top 10 choices for computer programming books that are used and recommended by successfull programmers include:
     
     </p>
     <hr>
     <div>
     <section >
-      <h1 id="first-h1" class="book-name">1. HTML&CSS with it's sister JAVASCRIPT&QUERY by Jon Duckett</h1>  
+      <h1 id="first-h1" class="book-name">1. HTML&CSS AND JAVASCRIPT&QUERY by Jon Duckett</h1>  
     <div class="grid">
     <img class="books" src="../images/html-css-js-jq.jpeg" alt="">
-    <p>This book is NOT 1 of but, the best book i've read when I started my programming journey.
-        it's a well written, well structured book.  It talks about all the topic you need to know 
-        to designed a webpage. The reason why i love this book when it comes to web development is, 
-        it is not over populated with unnecessary text and it gets straight to point with each and every topic.
-        another reason why i love this book is you get a visual presentation of what every elements, tags, variables class, id's does 
-        by using pictures. <br><br>
+    <p>
+  
+        These books are well-written and easy to understand, making them a great resource for beginners learning web development. 
+        They are also visually appealing, with plenty of code examples and graphics to help explain the concepts.
+       <br><br>
+
+        "HTML & CSS: Design and Build Websites" is a comprehensive guide to building websites using HTML and CSS. 
+        it covers all the essential concepts of HTML and CSS, including how to structure and style web pages.
+        It also includes practical exercises and examples to help readers apply what they have learned.
+
+        <br><br>
+
+        "JavaScript & JQuery: Interactive Front-End Web Development" is a companion book that teaches readers how to add 
+        interactivity and dynamic effects to their websites using JavaScript and jQuery. The book covers topics such as 
+        event handling, animating elements, and working with AJAX and APIs. 
+        <br><br>
+
         <span class="review">GOOD READ REVIEW
        <img src="../images/review-htmlCss.png" alt=""> </span>
     </p>
@@ -70,11 +89,12 @@
     <h1 class="book-name">2. Beginning Node.js, Express & MongoDB Development by Greg Lim</h1>
 <div class="grid">
     <img class="books" src="../images/node.js-exp-book.jpeg" alt="">
-    <p>This little book is very powerful.  It is short and very much hands-on. 
-        I was amaze of how much information I have gained within a short space of time.
-        Each topic has a clear explanation and it is well recommend for beginners to backend web development.
-        You'll start off with a brief concept of the topic and right away start building your first Node.js app.
-        upon completion you will create and deploy a full blog app to the internet. 
+    <p>This book teaches readers how to build web applications using the Node.js runtime, the Express web framework, and the MongoDB database.
+        <br><br>
+        The book covers all the essential concepts of these technologies, including how to set up a development environment, 
+        create server-side scripts using Node.js and Express, and work with the MongoDB database to store and retrieve data. 
+        The book also includes practical exercises and examples to help readers apply what they have learned.
+
         <br><br>
         <span class="review">GOOD READ REVIEW
         <img src="../images/review-NodeExpress.png" alt=""></span>
@@ -86,10 +106,9 @@
  <h1 class="book-name">3. THE C PROGRAMMING LANGUAGE BY DENNIS RITCHIE AND BRIAN KERNIGHAN</h1>
 <div class="grid"> 
        <img class="books" src="../images/ctheprogramminglanguage.jpeg" alt="">
-        <p>The book the considered as the holy grail of computer science.  It is written by the creator of the C Language 
-        himself Mr. Dennis Ritchie so you know all the necessary information to master the Language would be in this book.
-        The book is an excellent learning tool for both beginners and experienced C developers. It is definitely 
-        a must have on your bookshelf.
+        <p>The book covers all the essential concepts of the C programming language, including data types, control structures, 
+            functions, and pointers. It also includes a number of practical examples and exercises to help readers apply what 
+            they have learned.
         <br><br>
         <span class="review">GOOD READ REVIEW
         <img src="../images/review-cproLang.png" alt=""></span>
@@ -132,7 +151,7 @@
 <div class="grid"> 
     <img class="books" src="../images/java-book.jpg" alt="">
     <p> This book the most fun book  I have ever read in my computer programming journey. Lots of images to keep you interactive
-        while learning. This book is over 15 years old and java has updated their framework so i will recommend to buy 
+        while learning. This book is over 15 years old and java has updated their framework so I recommend to buy 
         the latest version that is set to be release on june 2022.  Head first series is always a must have on the bookshelf.
      <br>
      <br><br>
@@ -177,11 +196,11 @@
    
     <img class="books" src="../images/cleancode.jpg" alt="">
     <p>
-        This book explains the importance of well written and organized code.  As a programmer or developer, I can 
-        be difficult at time to read code that is not written by you.  Companies has lost countless of resources due to 
+        This book explains the importance of well written and organized code.  As a programmer or developer, It can 
+        be difficult at times to read code that is not written by you.  Companies has lost countless of resources due to 
         poorly written code.  understanding the concept of writing organize code will not only improve your skills
-        as a programmer it will save time rewriting code that perform the same task.  I explains the why you should use 
-        descriptive names when naming variables and function, the concepts of writhing a function, and some other useful points.
+        as a programmer, it will save time rewriting code that perform the same task.  It explains why you should use 
+        descriptive names when naming variables and functions, the concepts of writing a function, and some other useful points.
         <br><br>
         <span class="review">GOOD READ REVIEW
         <img src="../images/review-cleancode.png" alt=""></span>
@@ -229,6 +248,20 @@
       x.style.display = "block";
     }
     }
+
+            // side navbar
+ function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("bg").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("bg").style.marginLeft= "0";
+}
+
+    //side navbar end
+        
     </script>
 </body>
 </html>
