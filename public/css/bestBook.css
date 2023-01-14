@@ -3,6 +3,134 @@ body{
     padding: 0;
     color: gray;
 }
+.topnav a img{
+  margin-left: 130px;
+  margin-top: -70px;
+  filter: invert(100);
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(250, 238, 215);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #686868;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidehoverbar .openbtn{
+  position: absolute;
+  top: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+     
+}
+nav a {
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+  font-size: .8rem;
+  
+}
+
+nav a:hover {
+  color: rgb(103, 103, 103);
+}
+
+
+nav .topnav #myLinks {
+  margin-right: 20px;
+margin-top: -35px;
+  list-style-type: none;
+ float: right; 
+  padding: 10px;
+ text-align: left;
+text-decoration: none;
+height: 20px;
+font-size: 15px;
+
+
+}
+nav{
+  display: block;
+}
+.topnav a .icon{
+  width: 10px;
+}
+.topnav #myLinks a{   
+text-decoration: none;
+font-weight: bold;
+padding: 10px;
+padding-left: 20px;
+height: 50px;
+font-size: 15px;
+color: white;
+
+}
+.topnav a.icon {
+background: black;
+display: none;
+position: absolute;
+right: 0;
+top: 0;
+
+}
+.topnav #myLinks a:hover {
+  color: rgb(255, 72, 0);
+  font-size: 20px;
+}
+
+header img{
+  margin-top: 5px;
+  margin-left: -1020px;
+  opacity: 1;
+  filter: drop-shadow(0 0 0 blue) saturate(1000%);
+}
+.card nav ul a{
+  color: white;
+}
+.card nav ul{
+  background-color:white;
+  z-index: -100;
+}
+#nav-bar{
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+ position: fixed;
+ z-index: 100;
+
+}
+
+
 #intro{
     word-wrap: break-word;
     font-size: 18px;
