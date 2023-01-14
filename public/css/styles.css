@@ -341,13 +341,13 @@ padding-top: 20px;
 margin-bottom: 10px;
     }
    .card #software-info2 button{
-     width: 90px;
+     width: 110px;
      padding: 3px;
      margin-top: 10px;
      background-color: rgb(173, 132, 28);
-     border-radius: 5px;
+     
      border:none;
-    
+    font-size: 20px;
      box-shadow:
      0 14.8px 4.2px rgba(0, 0, 0, 0.034),
      0 11.7px 7.3px rgba(0, 0, 0, 0.048),
@@ -547,7 +547,7 @@ margin-top: 30px;
 .robot-info button{
   width: 150px;
   padding: 8px;
-  font-size: 15px;
+  font-size: 20px;
   background-color: rgb(255, 183, 0);
   color: white;
   /* border-color: rgb(173, 132, 28); */
@@ -977,14 +977,14 @@ padding-top: 20px;
     margin-left: -20px;
   background-color:black;
   border: 1px solid black;
-  opacity: 0.6;
+  opacity: 1;
   }
 .card #software-info2 h1 {
 font-size: 20px;
 margin-bottom: 13px;
   }
  .card #software-info2 button{
-   width: 90px;
+   width: 150px;
    padding: 3px;
 
    background-color: rgb(173, 132, 28);
@@ -1220,18 +1220,18 @@ padding-top: 20px;
     margin-left: -20px;
   background-color:black;
   border: 1px solid black;
-  opacity: 0.6;
+  opacity: 0.9;
   }
 .card #software-info2 h1 {
 font-size: 20px;
 margin-bottom: 13px;
   }
  .card #software-info2 button{
-   width: 90px;
+   width: 150px;
    padding: 3px;
-
+  color: white;
    background-color: rgb(173, 132, 28);
-   border-radius: 5px;
+  
    border:none;
 
  }
