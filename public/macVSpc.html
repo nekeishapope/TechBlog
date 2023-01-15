@@ -11,21 +11,47 @@
 </head>
 
 <body>
-    <div class="nueUi">
+    <header id="nav-bar">
         <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="whatsnew.html">What's New</a></li>
-                <li><a href="learn.html">Learn</a></li>
-                <li><a href="tech.html">Tech</a></li>
-                <li><a href="index.html">Home</a></li>
-
-            </ul>
-            <img src="../images/coderConerGB-removebg.png" width="100" height="100" alt="">
-        </nav>
-
-
-
+            <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="tutorial.html">Tutorials</a>
+            <a href="bestBook.html">Books</a>
+            <a href="bestBookInterview.html">Interview Books</a>
+            <a href="bestKeyboard.html">Keyboard</a>
+            <a href="bestMonitor.html">Monitor</a>
+            <a href="bestWebSite.html">Website</a>
+            <a href="deskSetup.html">Desk Setup</a>
+            <a href="gadgets.html">Gadgets</a>
+            <a href="tech.html">Tech</a>
+            <a href="topYTchannel.html">Top YouTube Channels</a>
+            <a href="macVSpc.html">Best Operating System</a>
+          </div>
+          <span class="open-btn" style="font-size:33px;cursor:pointer; 
+          margin-left: 90px; color: rgb(255, 72, 0);
+          " 
+          onclick="openNav()">&#9776;</span>
+    
+    <div class="topnav">
+        <a href="#home" >
+            <img src="../images/narelogo.png" alt="" width="110px" height="100px">
+    
+        </a>
+        
+        <div id="myLinks">
+           <a href="../index.html" onclick="redirect()">Home</a> 
+           <a href="tech.html">Tech</a>
+           <a href="gadgets.html">Gadgets</a>
+           <a href="deskSetup.html">Desk Setup</a>
+          <a href="#news">About</a>
+        </div>
+        <!-- <a href="javascript:void(0);" class="icon" onclick="scrollFunction()">
+          <i class="fa fa-bars"></i>
+        </a> -->
+      </div></nav>
+    </header>
+    <div class="nueUi">
+    
         <div class="macVSpc">
             <h1>MAC VS WINDOWS(PC)</h1>
             <p>
@@ -105,6 +131,27 @@
         </div>
        
     </div>
+
+    <script>
+  function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+  }
+                // side navbar
+ function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("nav-bar").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("nav-bar").style.marginLeft= "0";
+}
+    </script>
 </body>
 
 </html>
