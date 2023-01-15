@@ -4,8 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  
-
 }
 /*body{
     display: flex;
@@ -154,7 +152,6 @@ header img{
 
 
 #html-nav-bar{
- 
   float:right;
   margin-right: 20px;
   }
@@ -207,7 +204,6 @@ height: 255px;
 .black-div span{
   font: 12vw "Oswald", sans-serif;
   letter-spacing: 0;
- 
   display: block;
   text-shadow: 0 0 80px rgba(255,255,255,.5);
   text-align: center;
@@ -586,7 +582,6 @@ margin-top: 30px;
   border-color: #ff0000;
   border:none;
   margin-top: 30px;
-  
 }
 
 
@@ -606,6 +601,7 @@ margin-top: 30px;
   left: 90px;
   top: 200px;
   color: white;
+ 
 }
 .music-info h1{
   margin-bottom: 50px;
@@ -615,12 +611,12 @@ margin-top: 30px;
   background-color: #ff0000;
   border: none;
   padding: 10px;
-   font-size: 25px;
+  font-size: 25px;
   color: whitesmoke;
-
   margin-top: 60px;
+  
 }
-    .think{
+ .think{
       position: relative;  
       height: 90%;
       /* max-height: 600px; */

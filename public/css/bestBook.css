@@ -1,22 +1,16 @@
 body{
     margin: 0;
-    padding: 0;
-    
+    padding: 0; 
 }
-#myLinks{
-  color: black;
-  z-index: 100;
-}
-.topnav #myLinks {
 
-  list-style-type: none;
-  float: right;   
+.topnav #myLinks {
+list-style-type: none;
+float: right;   
 padding: 10px;
 text-align: left;
 text-decoration: none;
 height: 20px;
 font-size: 15px;
-
 }
 .topnav #myLinks a{
    
