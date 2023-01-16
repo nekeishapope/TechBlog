@@ -3,7 +3,6 @@ body{
   padding: 0;
   color: gray;
 }
-<<<<<<< HEAD
 .topnav a img{
   filter: invert(100%);
 }
@@ -14,8 +13,6 @@ body{
 #toggle-ham-icon{
   margin-top: 120;
 }
-=======
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 .sidenav {
   height: 100%;
   width: 0;
@@ -53,10 +50,6 @@ body{
   position: absolute;
   top: 0px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 nav {
   display: flex;
   justify-content: flex-start;
@@ -64,7 +57,6 @@ nav {
 
      
 }
-<<<<<<< HEAD
 
 
 nav ul {
@@ -83,8 +75,6 @@ nav li {
  
 }
 
-=======
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 nav a {
   text-decoration: none;
   color: rgb(214, 214, 214);
@@ -118,20 +108,11 @@ nav{
 }
 .topnav #myLinks a{   
 text-decoration: none;
-<<<<<<< HEAD
-
-=======
-font-weight: bold;
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 padding: 10px;
 padding-left: 20px;
 height: 50px;
 font-size: 15px;
-<<<<<<< HEAD
 color: rgb(82, 82, 82);
-=======
-color: white
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 }
 .topnav a.icon {
 background: black;
@@ -142,7 +123,6 @@ top: 0;
 
 }
 .topnav #myLinks a:hover {
-<<<<<<< HEAD
   color:black; 
   font-size: 20px;
 }
@@ -160,39 +140,6 @@ top: 150px;
 
 
 }
-=======
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-}
-
-nav ul li{
-  list-style-type: none;
-  float: left; 
-  padding-left: 20px;
-  padding-top: 20px;
-  text-decoration: none; 
- }
- 
- nav ul li a{
-   text-decoration: none;
-   padding-left: 20px; 
-   font-size: 16px;
-   color: black;
-   font-weight: bold;
- 
- }
- 
- #nav-bar a:hover{
- background-color: rgb(255, 72, 0);
- }
- .black-div{
-   width: 100%;
- height: 255px;
- 
-  background-image: linear-gradient(black, rgb(18, 18, 18));
-  
- }
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 .nueUi{
     position: absolute;
     overflow-x: hidden;
@@ -240,13 +187,9 @@ nav ul li a{
   box-shadow: inset 6px 6px 6px #f0f1f3, inset 6px 6px 6px white;
     color: gray;
 }
-<<<<<<< HEAD
 .nueUi .desk-intro{
   margin-bottom: -120px;
 }
-=======
-
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 .info-container{
     
   display: grid;
@@ -258,12 +201,9 @@ nav ul li a{
   padding: 20%;
   
 }
-<<<<<<< HEAD
 .kb-summary{
   margin: 50px;
 }
-=======
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 .info-container-tech{
     
   display: grid;
@@ -369,11 +309,7 @@ hr{
 } 
 /*BEST KEYBOARD*/
 .info-container-kb{
-<<<<<<< HEAD
   /* display: grid;
-=======
-  display: grid;
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
   grid-gap: 1rem;
   grid-template-columns: 50% 50%;
   grid-template-areas: 'item item';
@@ -381,7 +317,6 @@ hr{
   height: 70%;
   padding: 80px;
   margin-bottom: -310px;
-<<<<<<< HEAD
   font-size: 1.5vw; */
 
   display: grid;
@@ -389,9 +324,6 @@ hr{
   grid-column-gap: 50px;
   margin-top: 120px;
   padding: 50px;
-=======
-  font-size: 1.5vw;
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 }
 .nueUi hr{
   margin-top: 270px;
@@ -593,10 +525,7 @@ span {
    margin: 0 auto;
    display: grid;
    grid-template-columns: repeat(1, 1fr);
-<<<<<<< HEAD
  
-=======
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
    text-align: center;
    
   }
@@ -687,27 +616,15 @@ margin: 20px;
    
   }
   
-<<<<<<< HEAD
-
-=======
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black; 
-  }
-  
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
   .active {
     background-color: #4f676f;
     color: white;
   }
-<<<<<<< HEAD
   .topnav a img{
 
     position: relative;
     top: -14px;
   }
-=======
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
   .nueUi .info-container-mon{
     width: 70%;
   }
@@ -731,18 +648,13 @@ margin-bottom: 150px;
   width: 70%;
   height: 80%;
 }
-<<<<<<< HEAD
 .nueUi .desk-intro{
   margin-bottom: 20px;
 }
-=======
-
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 .heading{
   width: 100%;
   margin-bottom: 190px;
 }
-<<<<<<< HEAD
 .icons{
   width: 70%;
   margin-left: 50px;
@@ -774,15 +686,6 @@ margin-bottom: 150px;
 }
 .heading h1{
   margin-bottom: 30px;
-=======
-.icons a {width: 35px;height: 35px; margin-bottom: 15px;}
-.icons a i{font-size: 20px; ;line-height: 30px; margin-bottom: 5px;}
-.info-container-kb{
-  margin: 0 auto;
-    display: block;
-    margin-bottom: 50px;
-    text-align: center;
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 }
 .nueUi{
   text-align: center;

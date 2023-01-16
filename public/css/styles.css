@@ -4,11 +4,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-<<<<<<< HEAD
   
 
-=======
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 }
 /*body{
     display: flex;
@@ -25,10 +22,6 @@
 
   
 }*/
-<<<<<<< HEAD
-=======
-
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 button a{
   text-decoration: none;
   
@@ -160,10 +153,7 @@ header img{
 
 
 #html-nav-bar{
-<<<<<<< HEAD
  
-=======
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
   float:right;
   margin-right: 20px;
   }
@@ -216,10 +206,7 @@ height: 255px;
 .black-div span{
   font: 12vw "Oswald", sans-serif;
   letter-spacing: 0;
-<<<<<<< HEAD
  
-=======
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
   display: block;
   text-shadow: 0 0 80px rgba(255,255,255,.5);
   text-align: center;
@@ -353,7 +340,6 @@ padding-top: 20px;
 margin-bottom: 10px;
     }
    .card #software-info2 button{
-<<<<<<< HEAD
      width: 90px;
      padding: 3px;
      margin-top: 10px;
@@ -361,15 +347,6 @@ margin-bottom: 10px;
      border-radius: 5px;
      border:none;
     
-=======
-     width: 110px;
-     padding: 3px;
-     margin-top: 10px;
-     background-color: rgb(173, 132, 28);
-     
-     border:none;
-    font-size: 20px;
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
      box-shadow:
      0 14.8px 4.2px rgba(0, 0, 0, 0.034),
      0 11.7px 7.3px rgba(0, 0, 0, 0.048),
@@ -428,11 +405,7 @@ margin-bottom: 10px;
 }
 .brain{
     /* background-image: url('../images/notebook.jpg'); */
-<<<<<<< HEAD
     background-image: url('../images/python-book.jpg');
-=======
-    background-image: url('../images/python-book-pink.jpg');
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
     background-color: #cccccc;
     height: 933px;
     background-position: center;
@@ -573,11 +546,7 @@ margin-top: 30px;
 .robot-info button{
   width: 150px;
   padding: 8px;
-<<<<<<< HEAD
   font-size: 15px;
-=======
-  font-size: 20px;
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
   background-color: rgb(255, 183, 0);
   color: white;
   /* border-color: rgb(173, 132, 28); */
@@ -616,10 +585,7 @@ margin-top: 30px;
   border-color: #ff0000;
   border:none;
   margin-top: 30px;
-<<<<<<< HEAD
   
-=======
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 }
 
 
@@ -639,10 +605,6 @@ margin-top: 30px;
   left: 90px;
   top: 200px;
   color: white;
-<<<<<<< HEAD
-=======
- 
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 }
 .music-info h1{
   margin-bottom: 50px;
@@ -653,19 +615,11 @@ margin-top: 30px;
   border: none;
   padding: 10px;
   font-size: 25px;
-<<<<<<< HEAD
 
   color: whitesmoke;
   margin-top: 60px;
 }
     .think{
-=======
-  color: whitesmoke;
-  margin-top: 60px;
-  
-}
- .think{
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
       position: relative;  
       height: 90%;
       /* max-height: 600px; */
@@ -1022,22 +976,14 @@ padding-top: 20px;
     margin-left: -20px;
   background-color:black;
   border: 1px solid black;
-<<<<<<< HEAD
   opacity: 0.6;
-=======
-  opacity: 1;
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
   }
 .card #software-info2 h1 {
 font-size: 20px;
 margin-bottom: 13px;
   }
  .card #software-info2 button{
-<<<<<<< HEAD
    width: 90px;
-=======
-   width: 150px;
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
    padding: 3px;
 
    background-color: rgb(173, 132, 28);
@@ -1273,30 +1219,18 @@ padding-top: 20px;
     margin-left: -20px;
   background-color:black;
   border: 1px solid black;
-<<<<<<< HEAD
   opacity: 0.6;
-=======
-  opacity: 0.9;
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
   }
 .card #software-info2 h1 {
 font-size: 20px;
 margin-bottom: 13px;
   }
  .card #software-info2 button{
-<<<<<<< HEAD
    width: 90px;
    padding: 3px;
 
    background-color: rgb(173, 132, 28);
    border-radius: 5px;
-=======
-   width: 150px;
-   padding: 3px;
-  color: white;
-   background-color: rgb(173, 132, 28);
-  
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
    border:none;
 
  }
