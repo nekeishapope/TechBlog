@@ -3,27 +3,90 @@ body{
   padding: 0;
   color: gray;
 }
-.topnav #myLinks {
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(250, 238, 215);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
 
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #686868;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #000000;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidehoverbar .openbtn{
+  position: absolute;
+  top: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+     
+}
+nav a {
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+  font-size: .8rem;
+  
+}
+
+nav a:hover {
+  color: rgb(103, 103, 103);
+}
+
+
+nav .topnav #myLinks {
+  margin-right: 20px;
+margin-top: -35px;
   list-style-type: none;
-  float: right;   
-padding: 10px;
-text-align: left;
+ float: right; 
+  padding: 10px;
+ text-align: left;
 text-decoration: none;
 height: 20px;
 font-size: 15px;
 
+
 }
-.topnav #myLinks a{
-   
+nav{
+  display: block;
+}
+.topnav a .icon{
+  width: 10px;
+}
+.topnav #myLinks a{   
 text-decoration: none;
-background: white;
+font-weight: bold;
 padding: 10px;
 padding-left: 20px;
 height: 50px;
-font-size: 14px;
-
-color: gray;
+font-size: 15px;
+color: white
 }
 .topnav a.icon {
 background: black;
@@ -31,7 +94,40 @@ display: none;
 position: absolute;
 right: 0;
 top: 0;
+
 }
+.topnav #myLinks a:hover {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+nav ul li{
+  list-style-type: none;
+  float: left; 
+  padding-left: 20px;
+  padding-top: 20px;
+  text-decoration: none; 
+ }
+ 
+ nav ul li a{
+   text-decoration: none;
+   padding-left: 20px; 
+   font-size: 16px;
+   color: black;
+   font-weight: bold;
+ 
+ }
+ 
+ #nav-bar a:hover{
+ background-color: rgb(255, 72, 0);
+ }
+ .black-div{
+   width: 100%;
+ height: 255px;
+ 
+  background-image: linear-gradient(black, rgb(18, 18, 18));
+  
+ }
 .nueUi{
     position: absolute;
     overflow-x: hidden;
