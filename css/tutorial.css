@@ -1,0 +1,248 @@
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;
+background-color: ivory;
+}
+.topnav #myLinks {
+
+    list-style-type: none;
+    float: right;   
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  height: 20px;
+  font-size: 15px;
+  
+  
+  }
+  .topnav #myLinks a{
+     
+  text-decoration: none;
+  background: white;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  
+  color: gray;
+  }
+  .topnav a.icon {
+  background: black;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  }
+
+    /* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 15%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1vw;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  .linkContent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 75%;
+    border-left: none;
+    height: auto;
+    margin-top: 10px;
+  }
+  .linkContent h3{
+      font-size: 30px;
+  }
+  .card-container{
+    position: relative;
+    width: 100%;
+   height: 0;
+  padding-bottom: 96.25%;
+  } 
+.card-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+  .card {
+  
+    --card-gradient: rgba(0, 0, 0, 0.8);
+    --card-blend-mode: overlay;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+   
+   
+   
+    background-image: linear-gradient(
+      var(--card-gradient),
+      white max(9.5rem, 27vh)
+    );
+    overflow: hidden;
+  }
+  /* img {
+    border-radius: 0.5rem 0.5rem 0 0;
+    width: 100%;
+    object-fit: cover;
+    
+    max-height: max(1rem, 25vh);
+    aspect-ratio: 4/3;
+    mix-blend-mode: var(--card-blend-mode);
+ 
+} */
+    .card-wrapper {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    grid-gap: 1.5rem;
+    max-width: 70vw;
+    width: 120vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .card a {
+    color: inherit;
+  }
+  .card h3 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav #myLinks a{
+    
+    background-color: #333;
+    color: #f1f1f1;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  @media all and (min-width:481px) and (max-width:767px)
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+{ 
+
+ 
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative; 
+    z-index: 100;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+    width: 100%;
+   height: 320px;
+    float: left;
+    
+  }
+  .topnav #myLinks a{
+    
+    background-color: #333;
+ 
+  }
+  .topnav #myLinks a:hover{
+   color: black;
+   background-color: rgb(204, 202, 202);
+   width: 100%;
+   height: 30px; 
+  }
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;  
+  } 
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0; 
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black; 
+  }
+  
+  .active {
+    background-color: #4f676f;
+    color: white;
+  }
+  .tab button{
+      font-size: 3vw;
+  }
+  .tab{
+    width: 25%;
+  }
+}
+@media all and (min-width:768px)  and (max-width:1280) and (orientation: landscape)
+{
+  .tab button{
+    font-size: 4vw;
+}
+}
+@media all and (min-width: 1025px) and (max-width: 1280px)
+{
+  .tab button{
+    font-size: 2vw;
+}
+}
+@media all and (min-width:1281px) 
+{
+  .tab button{
+    font-size: 2vw;
+}
+}

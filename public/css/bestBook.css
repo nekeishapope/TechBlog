@@ -1,5 +1,6 @@
 body{
     margin: 0;
+<<<<<<< HEAD
     padding: 0;
     color: gray;
 }
@@ -19,6 +20,9 @@ body{
 }
 #toggle-ham-icon{
   margin-top: 120;
+=======
+    padding: 0; 
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 }
 .sidenav {
   height: 100%;
@@ -57,6 +61,29 @@ body{
   position: absolute;
   top: 0px;
 }
+<<<<<<< HEAD
+=======
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+     
+}
+nav a {
+  text-decoration: none;
+  color: rgb(129, 129, 129);
+  font-size: .8rem;
+  
+}
+
+nav a:hover {
+  color: rgb(18, 18, 18);
+}
+
+
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 nav .topnav #myLinks {
   margin-right: 20px;
 margin-top: -35px;
@@ -78,12 +105,20 @@ nav{
 }
 .topnav #myLinks a{   
 text-decoration: none;
+<<<<<<< HEAD
 
+=======
+font-weight: bold;
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 padding: 10px;
 padding-left: 20px;
 height: 50px;
 font-size: 15px;
+<<<<<<< HEAD
 color: rgb(82, 82, 82);
+=======
+color: black;
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 }
 .topnav a.icon {
 background: black;
@@ -93,6 +128,7 @@ right: 0;
 top: 0;
 
 }
+<<<<<<< HEAD
 .topnav #myLinks a:hover {
   color: rgb(255, 255, 255);
   font-size: 20px;
@@ -109,6 +145,113 @@ list-style-type: none;
 top: 150px;
 
 
+=======
+
+
+nav ul li{
+  list-style-type: none;
+  float: left; 
+  padding-left: 20px;
+  padding-top: 20px;
+  text-decoration: none; 
+ }
+ 
+ nav ul li a{
+   text-decoration: none;
+   padding-left: 20px; 
+   font-size: 16px;
+   color: black;
+   font-weight: bold;
+ 
+ }
+ 
+ #nav-bar a:hover{
+ background-color: rgb(255, 72, 0);
+ }
+
+ 
+.topnav #myLinks a:hover
+{
+  color: #000000;
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topnav #myLinks {
+list-style-type: none;
+float: right;   
+padding: 10px;
+text-align: left;
+text-decoration: none;
+height: 20px;
+font-size: 15px;
+}
+.topnav #myLinks a{
+   
+text-decoration: none;
+
+padding: 10px;
+padding-left: 20px;
+height: 50px;
+font-size: 14px;
+
+color: gray;
+}
+.topnav a.icon {
+background: black;
+display: none;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+header img{
+  margin-top: 5px;
+  margin-left: -1020px;
+  opacity: 1;
+  filter: drop-shadow(0 0 0 blue) saturate(1000%);
+}
+.card nav ul a{
+  color: white;
+}
+.card nav ul{
+  background-color:white;
+
+}
+#nav-bar{
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+ position: fixed;
+
+
+}
+
+
+#intro{
+    word-wrap: break-word;
+    font-size: 18px;
+    margin-left: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 }
 hr{
   width: 70%;
@@ -198,10 +341,14 @@ hr{
   text-align: center;
   margin-bottom: 40px;
 }
+<<<<<<< HEAD
 .topnav a img{
   filter: invert(100);
 }
 .topnav #myLinks {
+=======
+/* .topnav #myLinks {
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 
     list-style-type: none;
     float: right;   
@@ -229,7 +376,11 @@ hr{
   position: absolute;
   right: 0;
   top: 0;
+<<<<<<< HEAD
 }
+=======
+} */
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 .grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
@@ -615,10 +766,20 @@ padding-left: 10px;
 { 
 
  
+<<<<<<< HEAD
 
   .topnav a img{
     margin-top: -110px;
   }
+=======
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative; 
+    z-index: 100;
+  }
+  
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
   .topnav #myLinks {
     display: none;
     width: 100%;
@@ -653,10 +814,17 @@ padding-left: 10px;
     top: 0; 
   }
   
+<<<<<<< HEAD
   /* .topnav a:hover {
     background-color: #ddd;
     color: black; 
   } */
+=======
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black; 
+  }
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
   
   .active {
     background-color: #4f676f;

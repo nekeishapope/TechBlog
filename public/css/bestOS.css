@@ -16,6 +16,7 @@ body{
     place-items: center;
   overflow: hidden;
   color: gray;
+<<<<<<< HEAD
 }
 
 .topnav a img{
@@ -174,6 +175,12 @@ nav{
   
   
   }
+=======
+
+  
+}
+
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 .nueUi{
     position: absolute;
     overflow-x: hidden;
@@ -247,10 +254,24 @@ nav ul li a{
 }
 
 .info-container{
+<<<<<<< HEAD
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
+=======
+    display: grid;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-auto-flow: column;
+    padding: 50px;
+    grid-column-gap: 180px;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-column-gap: 150px;
+    font-size: 15px;
+    padding: 80px;  */
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 }
 .info-container .heading{
    margin-top: 80px;
@@ -508,6 +529,7 @@ span {
   left: 0;
   font-size: 10px;
   margin: 15px;
+<<<<<<< HEAD
 }
 
 @media all and (min-width:481px) and (max-width:767px)
@@ -629,4 +651,6 @@ span {
     margin-left: -120px;
   }
 
+=======
+>>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
 }

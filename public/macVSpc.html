@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bestOS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Best Keyboard</title>
+</head>
+
+<body>
+    <header id="nav-bar">
+        <nav>
+            <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="tutorial.html">Tutorials</a>
+            <a href="bestBook.html">Books</a>
+            <a href="bestBookInterview.html">Interview Books</a>
+            <a href="bestKeyboard.html">Keyboard</a>
+            <a href="bestMonitor.html">Monitor</a>
+            <a href="bestWebSite.html">Website</a>
+            <a href="deskSetup.html">Desk Setup</a>
+            <a href="gadgets.html">Gadgets</a>
+            <a href="tech.html">Tech</a>
+            <a href="topYTchannel.html">Top YouTube Channels</a>
+            <a href="macVSpc.html">Best Operating System</a>
+          </div>
+          <span class="open-btn" style="font-size:33px;cursor:pointer; 
+          margin-left: 90px; color: rgb(255, 72, 0);
+          " 
+          onclick="openNav()">&#9776;</span>
+    
+    <div class="topnav">
+        <a href="#home" >
+            <img src="../images/narelogo.png" alt="" width="110px" height="100px">
+    
+        </a>
+        
+        <div id="myLinks">
+           <a href="../index.html" onclick="redirect()">Home</a> 
+           <a href="tech.html">Tech</a>
+           <a href="gadgets.html">Gadgets</a>
+           <a href="deskSetup.html">Desk Setup</a>
+          <a href="#news">About</a>
+        </div>
+        <!-- <a href="javascript:void(0);" class="icon" onclick="scrollFunction()">
+          <i class="fa fa-bars"></i>
+        </a> -->
+      </div></nav>
+    </header>
+    <div class="nueUi">
+    
+        <div class="macVSpc">
+            <h1>MAC VS WINDOWS(PC)</h1>
+            <p>
+                When it comes to computer programing, Mac and Windows has its advantages and disadvantages. Both
+                computers are useful based on the path you are taking
+                in computer programing. For instance, if you want to develop an IOS app, you will most definitely need
+                an apple computer. Whereas, if you want to
+                develop an Android app, it's best to purchase a Window computer. However, if you are solely into web
+                development, the operating system does not matter since
+                visual studio code works on both Mac and Windows operating systems.
+                <br><br>
+                Both system performs great under extensive use.  But, they are not the same when it comes
+                to productivity. When it comes to productivity it prefer using MAC over Window as a computer programmer.
+                Why?
+
+                Programing softwares like code blocks, git bash, SQL developer or eclipse, may require
+                separate drivers in order for the program to run smoothly on a windows machine.
+                Whereas, on a Mac, you do not need any separate divers in order to use the program as designed.
+                At times you may have to disable a graphics card in order for the program to run efficiently on a windows computer.
+
+            
+        </div>
+        <hr>
+        <div class="info-container">
+            <div class="computers" class="heading" >
+                  <h1>MAC FEATURES</h1>
+                <img class="best-OS-pic" src="../images/macOS.jpg" alt="">
+                <p>1. Mac can be partitioned to run Windows OS by either Virtual Machine or Boot Camp. So, that mean you 
+                    can booth in either MAC OS or WINDOWS OS <br><br>
+                    <hr>
+                   2. Mac is UNIX-based thus more developer-friendly. Which means you can run ANY programming language on your system
+                                        <span>C, </span>
+                                        <span>C++, </span>
+                                        <span>SQL DEVELOPER, </span>
+                                        <span>PYTHON, </span>
+                                        <span>Java. plus more. </span><br><br>
+                   <hr>
+                   3. Mac Terminal (CLI) allows you to fully control your system. 
+                   The Command-Line editing that can be 
+                   customize to function like a text editor. <br>
+                   You have the ability to run "if/then", "for" loops right on the command line. 
+                   You can also give input/output as arguments to another command. 
+                    <br><br>
+                    <hr>
+                   4. The BIGEST reason why i love use macOS over Windows is the DRIVERS issue.  
+                   Most of the programming softwares i've download to on my MAC was ready for use once the download has completed
+                   Not so easy when is comes to windows.
+
+                </p>
+            </div>
+
+            <div class="computers" class="heading" >
+              <h1>PC FEATURES</h1>
+              <img class="best-OS-pic" src="../images/windowsOS.jpeg" alt="">
+                <p>
+                    Windows can not be partitioned to run MAC OS.  Although, you can rent a MAC in the cloud(macincloud)
+                    it will not be as stable and macOS built-in on a machine.
+                    <br><br>
+                    <hr>
+                    You will need to download programs like GitBash, JDK package, and even configure the path on your PC in order for the
+                    programming language to compile. <br><br>
+                    <hr>
+                    Windows uses Command Prompt or Powershell which is very limited and most of the abilities you have while using MAC Terminal does not exist on WINDOWS.<br><br>
+                   <hr>
+                    Window required some configuration after downloading some programing softwares.  For instance<br>
+                    If programs like:
+                               
+          <ul>
+                    <li>Eclipse: You will have to download a separate package AND configure the paths for JDK</li>
+                    <li>SQL developer: You will have to configure the bin folder to input the .dll file.</li>
+                    <li>GitBash: You may require to download MinGW(A compiler system that allow you run GNU(GCC) compiler. ) in order to run C/C++ programs. 
+                </ul>
+                </p>
+
+            </div>
+
+        </div>
+       
+    </div>
+
+    <script>
+  function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+  }
+                // side navbar
+ function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("nav-bar").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("nav-bar").style.marginLeft= "0";
+}
+    </script>
+</body>
+
+</html>
