@@ -83,6 +83,7 @@ padding-left: 20px;
 height: 50px;
 font-size: 15px;
 color: rgb(82, 82, 82);
+
 }
 .topnav a.icon {
 background: black;
@@ -93,7 +94,7 @@ top: 0;
 
 }
 .topnav #myLinks a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 .sidehoverbar  {
