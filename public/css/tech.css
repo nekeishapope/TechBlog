@@ -4,11 +4,12 @@ body{
   color: gray;
 }
 .topnav a img{
-  filter: invert(100%);
+  filter: invert(0);
 }
 .topnav a img{
+  position: absolute;
   margin-left: 130px;
-  margin-top: -70px;
+  margin-top: -31px;
 }
 #toggle-ham-icon{
   margin-top: 120;
@@ -201,8 +202,22 @@ nav ul li a{
   padding: 20%;
   
 }
+.amazon-btn{
+  position: absolute;
+  margin-bottom: 60px;
+  width: 180px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  justify-content: center;
+
+}
 .kb-summary{
   margin: 50px;
+}
+.info-container-kb a:nth-child(5){
+  position: absolute;
+bottom: 100px;
 }
 .info-container-tech{
     
@@ -623,12 +638,15 @@ margin: 20px;
   .topnav a img{
 
     position: relative;
-    top: -14px;
+    top: -24px;
   }
   .nueUi .info-container-mon{
     width: 70%;
   }
-
+  .nueUi .heading h1{
+    position: absolute;
+    margin-top: -110px;
+  }
   .info-container {
     margin: 0 auto;
     display: block;
@@ -651,9 +669,10 @@ margin-bottom: 150px;
 .nueUi .desk-intro{
   margin-bottom: 20px;
 }
+
 .heading{
   width: 100%;
-  margin-bottom: 190px;
+  margin-bottom: 170px;
 }
 .icons{
   width: 70%;
@@ -675,22 +694,25 @@ margin-bottom: 150px;
 .keyboard-img{
  width: 500px;
   height: 9vh;
-  margin-top: 211px;
-  margin-bottom: 10px;
+  margin-top: -11px;
+  margin-bottom: 15px;
 
 
 }
 .heading{
-  margin-top: 20px;
+  
+  margin-top: 10px;
   
 }
 .heading h1{
+  
   margin-bottom: 30px;
 }
 .nueUi{
   text-align: center;
-  width: 80%;
+  width: 100%;
 }
+
 .nueUi hr{
   display: none;
   /*
@@ -703,6 +725,16 @@ margin-bottom: 150px;
 .nueUi button{
   margin-top: 50px;
   
+}
+.amazon-btn{
+  position: absolute;
+  margin-bottom: 60px;
+  width: 180px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  justify-content: center;
+  left: 230px
 }
 .info-container-gad{
   margin: 0 auto;
@@ -719,16 +751,17 @@ margin-bottom: 150px;
 }
 
 .info-container-kb{
-  width: 55%;
-  height: 50%;
+
+  position: relative;
+
+margin: auto;
+width: 70%;
+
 }
-.info-container-kb .heading h1{
-  margin-top: -290px;
-  margin-bottom: 110px;
-}
+
 .info-container-kb img{
-   width: 2vw;
-   margin-bottom: -82px;
+   width: 1vw;
+   margin-bottom: -42px;
 
 }
 .info-container-mon{
@@ -752,7 +785,7 @@ margin-bottom: 150px;
   margin-bottom: -115px;
 }
 .info-container-kb p{
-  font-size: 2.7vw;
+  font-size: 3vw;
 }
 .info-container2 .heading p{
   margin-bottom: -15px;

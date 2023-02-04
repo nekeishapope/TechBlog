@@ -27,8 +27,9 @@ button a{
   
 }
 .topnav a img{
+  position: absolute;
   margin-left: 130px;
-  margin-top: -70px;
+  margin-top: -35px;
   filter: invert(0);
 }
 .sidenav {
@@ -262,13 +263,13 @@ height: 255px;
 background-image: url("../images/bg_nikkiinit_home.jpeg") ; 
 
 
-width: 100%;
+      width: 100%;
       height: 100vh;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       position: relative;
-     /* z-index: -100;*/
+      
      
     }
    
@@ -328,12 +329,13 @@ padding-top: 20px;
    font-size: 20px;
  }
     .card #software-info2 {
-     
+     z-index: 999;
       width: 280px;
       margin-left: -90px;
       margin-top: -210px;
       color: azure;
       font-family: 'Times New Roman', Times, serif;
+      
     }
 .card #software-info2 h1 {
 
@@ -402,6 +404,7 @@ margin-bottom: 10px;
   top: 55%;
   left: 16%;
   font-size: 1.4vw;
+
 }
 .brain{
     /* background-image: url('../images/notebook.jpg'); */
@@ -412,7 +415,7 @@ margin-bottom: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: 100;
+    z-index: -100;
   
  
 /*
@@ -966,30 +969,31 @@ padding-top: 20px;
   color: white;
 }
   .card #software-info2 {
-   z-index: 999;
-    width: 380px;
- 
-    color: azure;
-    font-family: 'Times New Roman', Times, serif;
+    width:420px;
+    height: 340px;
+    position: absolute;
+    top:420px;
+    left: 105px;
+    font-size: 15px;
+    color: #ecf0f3;
+    background-color:black;
+    border: 1px solid black;
+    opacity: 0.8;
     padding: 10px;
-    margin-top: -141px;
-    margin-left: -20px;
-  background-color:black;
-  border: 1px solid black;
-  opacity: 0.6;
+    z-index: 99;
   }
 .card #software-info2 h1 {
 font-size: 20px;
 margin-bottom: 13px;
   }
  .card #software-info2 button{
-   width: 90px;
+   width: 170px;
+   margin-left: 100px;
    padding: 3px;
-
+  font-size: 25px;
    background-color: rgb(173, 132, 28);
    border-radius: 5px;
    border:none;
-
  }
 .robot{
   height: 600px;
@@ -1000,10 +1004,10 @@ margin-bottom: 13px;
 }
 .robot-info{
   width:420px;
-  height: 440px;
+  height: 410px;
   position: absolute;
   top:120px;
-  left: 30px;
+  left: 10px;
   font-size: 15px;
   color: #ecf0f3;
   background-color:black;
@@ -1020,39 +1024,72 @@ margin-bottom: 13px;
   /* border-color: rgb(173, 132, 28); */
   border:none;
   margin-top: 30px;
+  margin-left: 120px;
+  font-size: 20px;
 }
 .brain{
   width:500px;
   height: 640px;
 }
 #html-info{
- width: 400px;
-  margin-left: -15px;
-  margin-top: -70px;
+  width:420px;
   height: 440px;
+  position: absolute;
+  top:120px;
+  left: 10px;
+  font-size: 15px;
+  color: #ecf0f3;
   background-color:black;
   border: 1px solid black;
   opacity: 0.8;
-  padding-top: 10px;
-  padding: 20px;
+  padding: 10px;
 }
-
+#html-info button{
+  width: 150px;
+  padding: 8px;
+  font-size: 15px;
+  background-color: rgb(255, 183, 0);
+  color: white;
+  /* border-color: rgb(173, 132, 28); */
+  border:none;
+  margin-top: 30px;
+  margin-left: 120px;
+  font-size: 20px;
+}
 .music-info{
-  width: 400px;
-
-  margin-left: -50px;
-  margin-top: -70px;
- 
+  width:420px;
+  height: 440px;
+  position: absolute;
+  top:120px;
+  left: 10px;
+  font-size: 15px;
+  color: #ecf0f3;
   background-color:black;
   border: 1px solid black;
   opacity: 0.8;
-  padding-top: 10px;
-  padding: 20px;
+  padding: 10px;
+}
+.pink-keyboard .keyboard-info button{
+
+}
+.music-info button{
+  width: 250px;
+  padding: 8px;
+  font-size: 15px;
+  background-color: rgb(255, 183, 0);
+  color: white;
+  /* border-color: rgb(173, 132, 28); */
+  border:none;
+  margin-top: 30px;
+  margin-left: 90px;
+  font-size: 20px;
 }
 .music{
   height: 640px;
 }
-
+.black-div p{
+  font-size: 7px;
+}
 footer{
   display: grid;
   grid-template-columns: repeat(1,1fr);
@@ -1209,29 +1246,30 @@ padding-top: 20px;
   color: white;
 }
   .card #software-info2 {
-   z-index: 999;
+
     width: 380px;
- 
+    z-index: 99;
     color: azure;
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
-    margin-top: -141px;
-    margin-left: -20px;
+    margin-top: -400px;
+    margin-left: 70px;
   background-color:black;
   border: 1px solid black;
-  opacity: 0.6;
+  opacity: 0.8;
   }
 .card #software-info2 h1 {
 font-size: 20px;
 margin-bottom: 13px;
   }
  .card #software-info2 button{
-   width: 90px;
-   padding: 3px;
-
-   background-color: rgb(173, 132, 28);
-   border-radius: 5px;
-   border:none;
+  width: 170px;
+  margin-left: 1px;
+  padding: 3px;
+ font-size: 25px;
+  background-color: rgb(173, 132, 28);
+  border: none;
+  border:none;
 
  }
 .robot{
@@ -1243,10 +1281,10 @@ margin-bottom: 13px;
 }
 .robot-info{
   width:420px;
-  height: 440px;
+  height: 400px;
   position: absolute;
   top:120px;
-  left: 30px;
+  left: 130px;
   font-size: 15px;
   color: #ecf0f3;
   background-color:black;
@@ -1265,14 +1303,14 @@ margin-bottom: 13px;
   margin-top: 30px;
 }
 .brain{
-  width:500px;
+  width:600px;
   height: 640px;
 }
 #html-info{
  width: 400px;
-  margin-left: -15px;
+  margin-left: 95px;
   margin-top: -70px;
-  height: 440px;
+  height: 400px;
   background-color:black;
   border: 1px solid black;
   opacity: 0.8;
@@ -1283,8 +1321,8 @@ margin-bottom: 13px;
 .music-info{
   width: 400px;
 
-  margin-left: -50px;
-  margin-top: -70px;
+  margin-left: 50px;
+  margin-top: -90px;
  
   background-color:black;
   border: 1px solid black;
@@ -1295,7 +1333,16 @@ margin-bottom: 13px;
 .music{
   height: 640px;
 }
-
+.music-info button{
+  width: 150px;
+  padding: 8px;
+  font-size: 15px;
+  background-color:red;
+  color: white;
+  /* border-color: rgb(173, 132, 28); */
+  border:none;
+  margin-top: 30px;
+}
 footer{
   display: grid;
   grid-template-columns: repeat(1,1fr);
@@ -1310,7 +1357,7 @@ footer{
   
 }
 footer div{
-  margin-left: 80px;
+  margin-left: 120px;
 }
 footer h6{
   font-size: 4vw;
@@ -1351,15 +1398,20 @@ address{
 /* small screen and laptops*/
 @media all and (min-width:769px) and (max-width:1024px)
 {
-
+ .card #software-info2 {
+  z-index: 99;
+ }
 }
 
 
 /* Desktops large screen*/
 @media all and (min-width:1025px) and (max-width:1200px)
 {
-
+    .card #software-info2{
+      z-index: 99;
+    }
 }
+
 
 
 /* Extra large screens and TV*/
@@ -1367,6 +1419,7 @@ address{
 {
   .card #software-info2{
     width: 400px;
+    z-index: 99;
   }
 .card #software-info2 p{
   font-size: 20px;

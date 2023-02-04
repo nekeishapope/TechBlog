@@ -227,7 +227,6 @@ background-color: ivory;
   .tab{
     width: 25%;
   }
-<<<<<<< HEAD
 }
 @media all and (min-width:768px)  and (max-width:1280) and (orientation: landscape)
 {
@@ -247,6 +246,3 @@ background-color: ivory;
     font-size: 2vw;
 }
 }
-=======
-}
->>>>>>> 263958c3a854fe0c8c5e69b28d356475bd5b2b4b
