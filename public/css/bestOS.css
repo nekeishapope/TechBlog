@@ -509,7 +509,80 @@ span {
   font-size: 10px;
   margin: 15px;
 }
+@media all and (min-width: 0px) and (max-width:480px)
+{
 
+  
+  .topnav #myLinks {
+    display: none;
+    width: 100%;
+   height: 320px;
+    float: left;   
+  }
+  .topnav #myLinks a{ 
+    background-color: #333;
+  }
+  .topnav #myLinks a:hover{
+   color: black;
+   background-color: rgb(204, 202, 202);
+   width: 100%;
+   height: 30px; 
+  }
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;  
+  } 
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+  }
+  
+
+  .active {
+    background-color: #4f676f;
+    color: white;
+  }
+  .topnav a img{
+
+    position: relative;
+    top: -14px;
+  }
+  .info-container{
+    margin: 90px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    
+  }
+  .info-container #pc-heading {
+    padding-top: 120px;
+  }
+  nav .openbtn{
+    position: absolute;
+    margin-left: -120px;
+  }
+  .design{
+    position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 2vw;
+  margin: 20px;
+  }
+  .icons{
+   width: 70%;
+   margin-left: 50px;
+  }
+  .icons a {width: 31px;height: 31px; margin-bottom: 10px;}
+  .icons a i{font-size: 20px; ;line-height: 30px; margin-bottom: 5px;}
+}
 @media all and (min-width:481px) and (max-width:767px)
 {
 

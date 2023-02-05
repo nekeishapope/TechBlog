@@ -401,7 +401,9 @@ hr{
 .gadgets-intro{
   margin: 50px;
 }
-
+.gadgets-introP{
+  margin: 50px;
+}
 /* Monitor Style */
 .monitor-pic{
   width: 40%;
@@ -486,11 +488,11 @@ span {
 { 
   .topnav {
     overflow: hidden;
-    background-color: #333;
+   
     position: relative; 
     z-index: 100;
   }
-  
+
   .topnav #myLinks {
     display: none;
     width: 100%;
@@ -511,12 +513,30 @@ span {
   }
   .topnav a {
     color: white;
-    padding: 14px 16px;
+    padding: 2px 2px;
     text-decoration: none;
     font-size: 17px;
-    display: block;  
+    display: block;
+    
   } 
-  
+  .topnav{
+    z-index: -999;
+   
+    height: 50px;
+    margin-top: -40px;
+  }
+  .nueUi #kb-heading{
+    margin-left: 50px;
+  }
+  .nueUi .gadgets-introP{
+    position: absolute;
+    margin-bottom: -10px;
+  }
+    .topnav a img{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 5px;
+  }
   .topnav a.icon {
     background: black;
     display: block;
@@ -535,6 +555,9 @@ span {
     background-color: #4f676f;
     color: white;
   }
+  .nueUi{
+    width: 100%;
+  }
   .info-container {
    
    margin: 0 auto;
@@ -542,6 +565,31 @@ span {
    grid-template-columns: repeat(1, 1fr);
  
    text-align: center;
+   
+  }
+
+  .info-container-kb{
+  
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    margin-bottom: -300px;
+  }
+  .info-container-kb h1{
+    font-size: 5vw;
+  }
+  .info-container-kb .keyboard-img .keyboard{
+    width: 260px;
+    height: 150px;
+  }
+  .info-container-kb button{
+    position: absolute;
+    width: 120px;
+    font-size: 12px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: -60px;
    
   }
   .info-container-tech {
@@ -552,6 +600,16 @@ span {
     text-align: center;
     
    }
+   .nueUi .info-container-tech{
+    position:relative;
+    width: 75%;
+    margin-bottom: 50%; 
+   
+  }
+  .info-container-tech img{
+    width: 100%;
+   
+  }
   .info-container-mon {
    
     margin: 0 auto;
@@ -565,8 +623,16 @@ span {
     width: 75%;
     margin-bottom: 50%; 
   }
-
-  
+.info-container2 .heading p{
+  font-size: 20px;
+ 
+}
+.info-container2 .heading{
+   width: 90%;
+} 
+.info-container2 .heading h1{
+ font-size: 4vw;
+} 
 .info-container-mon .heading button{
   position: relative;
    margin-bottom: 70px; 
@@ -748,17 +814,39 @@ margin-bottom: 150px;
 }
 .info-container-gad p{
   margin: 15px;
+  
 }
 
 .info-container-kb{
 
-  position: relative;
+position: relative;
 
 margin: auto;
 width: 70%;
 
 }
-
+.info-container-gad .heading h1{
+  margin-top: -350px;
+  margin-left: 70px;
+  
+}
+.nueUi .gadgets-introP{
+  margin-bottom: 120px;
+}
+ #rocket-book{
+margin-top: 200px;
+  
+}
+#rocket-book h1{
+  margin-top: -460px;
+}
+#footstand{
+  margin-top: 200px;
+    
+  }
+  #footstand h1{
+    margin-top: -500px;
+  }
 .info-container-kb img{
    width: 1vw;
    margin-bottom: -42px;

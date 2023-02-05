@@ -15,8 +15,6 @@ body{
   position: absolute;
   margin-left: 130px;
   margin-top: -31px;
-
-
 }
 #toggle-ham-icon{
   margin-top: 120;
@@ -267,8 +265,10 @@ grid-gap: 9px;
     width: 450px;
     height: 570px;
     */
-    width: 90%;
-    height: 100%;
+    width: 100%;
+    height: auto;
+    margin-bottom: 90px;
+  
     box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -588,11 +588,47 @@ div section h1{
 }
 
 .grid p {position:absolute; font-size: 15px; display: block;
-margin-top: 500px;
+margin-top: 100px;
 padding-bottom: 10px;
 }
+.grid p img {width: 50px;}
+.book-name{
+  font-size: 20px;
+
+}
+
+.grid .review{
+  position: absolute;
+  color: #4f676f;
+  font-weight: bold;
+  font-size: 4vw;
+  margin-left: 60px;
+  margin-top: 20px;
+  }
+div section h1{
+  margin-top: 300px;
+  margin-left: 5px;
+  
+}
+ .grid{
+  position: relative;
+  margin-bottom: 350px;
+}
+.grid .books{
+
+ width: 150%;
+ height: 300px;
+ padding: 1px;
+ margin-left: 50px;
+}
+
+.grid p {position:absolute; font-size: 15px; display: block;
+margin-top: 350px;
+padding-bottom: -10px;
+}
 .grid p img {width: 250px;}
-.book-name{font-size: 20px;}
+.book-name{font-size: 20px; margin-left: 25px;}
+
 
 .YTContainer img{
   width: 100%;
