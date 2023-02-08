@@ -603,7 +603,7 @@ margin-top: 30px;
 
 }
 .music-info{
-  width: 300px;
+  width: 500px;
   position: absolute;
   left: 90px;
   top: 200px;
@@ -922,7 +922,11 @@ address{
 } 
 /* mobile devices*/
 @media all and (min-width: 0px) and (max-width:480px){
-footer{
+
+  .topnav a img{
+    margin-top: -35px;
+  }
+  footer{
   display: grid;
   grid-template-columns: repeat(1,1fr);
   grid-column-gap: 5px;
