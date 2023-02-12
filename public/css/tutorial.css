@@ -170,18 +170,24 @@ background-color: rgb(255, 255, 255);
   {
     .tab{
       
-      width: 100px;
+      width: 90px;
       margin-left: 0px;
     }
     .tab button{
       
-      font-size: 3.2vw;
+      font-size: 3vw;
       margin-left: -10px;
     }
     .linkContent{
-      margin-left: -10px;
-      width: 78%;
+      margin-left: -15px;
+      width: 77%;
     }
+    .card{
+      width: 240px;
+    }
+   .linkContent h3{
+    margin-left: 12px;
+   }
   }
   @media all and (min-width:481px) and (max-width:767px)
 /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
