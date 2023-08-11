@@ -1,17 +1,17 @@
-body{
+body {
   margin: 0;
   padding: 0;
   color: gray;
 }
-.topnav a img{
+.topnav a img {
   filter: invert(0);
 }
-.topnav a img{
+.topnav a img {
   position: absolute;
   margin-left: 130px;
   margin-top: -31px;
 }
-#toggle-ham-icon{
+#toggle-ham-icon {
   margin-top: 120;
 }
 .sidenav {
@@ -47,7 +47,7 @@ body{
   font-size: 36px;
   margin-left: 50px;
 }
-.sidehoverbar .openbtn{
+.sidehoverbar .openbtn {
   position: absolute;
   top: 0px;
 }
@@ -55,154 +55,133 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
-     
 }
 
-
 nav ul {
-   
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
- margin-left: 55%;
-
+  margin-left: 55%;
 }
 
 nav li {
   margin: 0 1rem;
   float: right;
- 
 }
 
 nav a {
   text-decoration: none;
   color: rgb(214, 214, 214);
-  font-size: .8rem;
-  
+  font-size: 0.8rem;
 }
 
 nav a:hover {
   color: rgb(103, 103, 103);
 }
 
-
 nav .topnav #myLinks {
   margin-right: 20px;
-margin-top: -35px;
+  margin-top: -35px;
   list-style-type: none;
- float: right; 
-  padding: 10px;
- text-align: left;
-text-decoration: none;
-height: 20px;
-font-size: 15px;
-
-
-}
-nav{
-  display: block;
-}
-.topnav a .icon{
-  width: 10px;
-}
-.topnav #myLinks a{   
-text-decoration: none;
-padding: 10px;
-padding-left: 20px;
-height: 50px;
-font-size: 15px;
-color: rgb(82, 82, 82);
-}
-.topnav a.icon {
-background: black;
-display: none;
-position: absolute;
-right: 0;
-top: 0;
-
-}
-.topnav #myLinks a:hover {
-  color:black; 
-  font-size: 20px;
-}
-
-.sidehoverbar  {
-position: fixed;
-font-size: 12px;
-Color: white;
-padding: 0px;
-border-radius: 0px 25px 25px 0px;
-left: 120px;
-list-style-type: none;
-
-top: 150px;
-
-
-}
-.nueUi{
-    position: absolute;
-    overflow-x: hidden;
-    overflow-x: auto;
-    left: 50%;
-    top: 50%;
-    width: 80%;
-    height: 80%;
-    margin-left: -10px;
-    margin-top: -10px;
-    border-radius: 4px solid;
-   background: white;
-
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-;  
-}
-
-nav ul li{
-  
-    list-style-type: none;
-    float: right;   
+  float: right;
   padding: 10px;
   text-align: left;
- text-decoration: none;
+  text-decoration: none;
   height: 20px;
   font-size: 15px;
 }
-nav ul li a{
-     
-    text-decoration: none;
-    background: white;
-    padding: 10px;
+nav {
+  display: block;
+}
+.topnav a .icon {
+  width: 10px;
+}
+.topnav #myLinks a {
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 15px;
+  color: rgb(82, 82, 82);
+}
+.topnav a.icon {
+  background: black;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav #myLinks a:hover {
+  color: black;
+  font-size: 20px;
+}
+
+.sidehoverbar {
+  position: fixed;
+  font-size: 12px;
+  color: white;
+  padding: 0px;
+  border-radius: 0px 25px 25px 0px;
+  left: 120px;
+  list-style-type: none;
+
+  top: 150px;
+}
+.nueUi {
+  position: absolute;
+  overflow-x: hidden;
+  overflow-x: auto;
+  left: 50%;
+  top: 50%;
+  width: 80%;
+  height: 80%;
+  margin-left: -10px;
+  margin-top: -10px;
+  border-radius: 4px solid;
+  background: white;
+
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+nav ul li {
+  list-style-type: none;
+  float: right;
+  padding: 10px;
+  text-align: left;
+  text-decoration: none;
+  height: 20px;
+  font-size: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  background: white;
+  padding: 10px;
   padding-left: 20px;
   height: 50px;
   font-size: 14px;
   border-radius: 50px;
   box-shadow: inset 6px 6px 6px #f0f1f3, inset 6px 6px 6px white;
-    color: gray;
+  color: gray;
 }
-.nueUi .desk-intro{
+.nueUi .desk-intro {
   margin-bottom: -120px;
 }
-.info-container{
-    
+.info-container {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 50% 50%;
-  grid-template-areas: 'item item';
+  grid-template-areas: "item item";
   width: 90%;
   height: 70%;
   padding: 20%;
-  
 }
-.amazon-btn{
+.amazon-btn {
   position: absolute;
   margin-bottom: 60px;
   width: 180px;
@@ -210,63 +189,55 @@ nav ul li a{
   font-size: 17px;
   font-weight: bold;
   justify-content: center;
-
 }
-.kb-summary{
+.kb-summary {
   margin: 50px;
 }
-.info-container-kb a:nth-child(5){
+.info-container-kb a:nth-child(5) {
   position: absolute;
-bottom: 100px;
+  bottom: 100px;
 }
-.info-container-tech{
-    
+.info-container-tech {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 50% 50%;
-  grid-template-areas: 'item item';
+  grid-template-areas: "item item";
   width: 90%;
   height: 70%;
   padding: 5%;
-  
 }
-.info-container-tech .tech-pic{ 
-    width: 70%;
-    height: 80%;
-   box-sizing: border-box;
-    border-radius: 20px;
-    box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-;  
+.info-container-tech .tech-pic {
+  width: 70%;
+  height: 80%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
-.info-container-tech .heading h1{
+.info-container-tech .heading h1 {
   font-size: 3vw;
 }
-.info-container-tech  .heading p{
+.info-container-tech .heading p {
   font-size: 2vw;
 }
-.info-container-gad{
-   margin: 20px; 
+.info-container-gad {
+  margin: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   grid-gap: 9px;
   margin-bottom: 45px;
-  
 }
-.info-container-gad .gadget-pic{
+.info-container-gad .gadget-pic {
   width: 80%;
   height: 100%;
 }
-.info-container-mon{
+.info-container-mon {
   display: grid;
-grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-grid-gap: 9px;
-    /*
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-gap: 9px;
+  /*
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 50% 50%;
@@ -275,55 +246,51 @@ grid-gap: 9px;
   height: 70%;
   padding: 20%;*/
 }
-.info-container-mon .monitor-pic{
+.info-container-mon .monitor-pic {
   width: 80%;
   height: 100%;
 }
-.info-container2{
+.info-container2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-justify-content: center;
-margin-bottom: 120px;
+  justify-content: center;
+  margin-bottom: 120px;
 }
-.info-container2 img{
-width: 90%;
-
+.info-container2 img {
+  width: 90%;
 }
-.info-container2 .heading{
-width: 70%;
-
+.info-container2 .heading {
+  width: 70%;
 }
-.info-container2 .heading p{
- font-size: 1.7vw;
-  
-  }
-.info-container2 .heading h1{
-    font-size: 2.5vw;
+.info-container2 .heading p {
+  font-size: 1.7vw;
 }
-hr{
+.info-container2 .heading h1 {
+  font-size: 2.5vw;
+}
+hr {
   margin-left: 220px;
   margin-right: 220px;
   margin-top: 100px;
   margin-bottom: 100px;
- 
 }
 
-#explore-Btn{
-    width: 100px;
-    height: 30px;
-    
+#explore-Btn {
+  width: 100px;
+  height: 30px;
+
   /*
   margin-top: 350px;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);*/
-} 
+}
 /*BEST KEYBOARD*/
-.info-container-kb{
+.info-container-kb {
   /* display: grid;
   grid-gap: 1rem;
   grid-template-columns: 50% 50%;
@@ -335,25 +302,25 @@ hr{
   font-size: 1.5vw; */
 
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 50px;
   margin-top: 120px;
   padding: 50px;
 }
-.nueUi hr{
+.nueUi hr {
   margin-top: 270px;
 }
-#kb-heading{
+#kb-heading {
   text-align: center;
 }
-.info-container-kb .keyboard{
+.info-container-kb .keyboard {
   width: 40%;
 }
 
-#macVSwin-img button{
-    width: 100px;
-    height: 30px;
-    margin-top: 350px;
+#macVSwin-img button {
+  width: 100px;
+  height: 30px;
+  margin-top: 350px;
   position: relative;
   top: 50%;
   left: 50%;
@@ -361,10 +328,10 @@ hr{
   transform: translate(-50%, -50%);
 }
 
-#gadget-img button{
-    width: 100px;
-    height: 30px;
-    margin-top: 350px;
+#gadget-img button {
+  width: 100px;
+  height: 30px;
+  margin-top: 350px;
   position: relative;
   top: 50%;
   left: 50%;
@@ -372,10 +339,10 @@ hr{
   transform: translate(-50%, -50%);
 }
 
-#desksetup-img button{
-    width: 50%;
-    height: 30px;
-    margin-top: 350px;
+#desksetup-img button {
+  width: 50%;
+  height: 30px;
+  margin-top: 350px;
   position: relative;
   top: 50%;
   left: 50%;
@@ -383,133 +350,126 @@ hr{
   transform: translate(-50%, -50%);
 }
 
-#monitor-img button{
-    width: 50%;
-    height: 30px;
-    margin-top: 350px;
+#monitor-img button {
+  width: 50%;
+  height: 30px;
+  margin-top: 350px;
   position: relative;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-
-
 
 /* gadget style */
 
-.gadgets-intro{
+.gadgets-intro {
   margin: 50px;
 }
-.gadgets-introP{
+.gadgets-introP {
   margin: 50px;
 }
 /* Monitor Style */
-.monitor-pic{
+.monitor-pic {
   width: 40%;
   height: 110%;
   margin-bottom: 50px;
 }
 
-.icons{
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+.icons {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.icons a{
-    background: #ecf0f3;
-    position: relative;
-    height: 3.5rem;
-    width: 3.5rem;
-    margin: 0 10px;
-    display: inline-flex;
-    text-decoration: none;
-    border-radius: 50%;
-    transition: all 0.3s;
-    box-shadow: -3px -3px 7px #ffffff,
-                3px 3px 5px #ceced1;
-  }
-  .icons a:hover:before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    border-radius: 50%;
-    background: #ecf0f3;
-    box-shadow: inset -3px -3px 7px #ffffff,
-                inset 3px 3px 5px #ceced1;
-  }
-  .icons a i{
-    position: relative;
-    z-index: 3;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    font-size: 25px;
-    line-height: 60px;
-  }
-  .icons a:hover i{
-    transform: scale(0.9);
-  }
-  .icons a.fb i{
-    color: #4267B2;
-  }
-  .icons a.twitter i{
-    color: #1DA1F2;
-  }
-  .icons a.insta i{
-    color: #E1306C;
-  }
-  .icons a.git i{
-    color: #333;
-  }
-  .icons a.yt i{
-    color: #ff0000;
-  }
- 
+.icons a {
+  background: #ecf0f3;
+  position: relative;
+  height: 3.5rem;
+  width: 3.5rem;
+  margin: 0 10px;
+  display: inline-flex;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.3s;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+}
+.icons a:hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  background: #ecf0f3;
+  box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+}
+.icons a i {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+  line-height: 60px;
+}
+.icons a:hover i {
+  transform: scale(0.9);
+}
+.icons a.fb i {
+  color: #4267b2;
+}
+.icons a.twitter i {
+  color: #1da1f2;
+}
+.icons a.insta i {
+  color: #e1306c;
+}
+.icons a.git i {
+  color: #333;
+}
+.icons a.yt i {
+  color: #ff0000;
+}
+
 span {
   content: "\00A9";
 }
-.design{
-    position: absolute;
+.design {
+  position: absolute;
   bottom: 0;
   left: 0;
   font-size: 1vw;
   margin: 15px;
 }
 
-@media all and (min-width: 0px) and (max-width:480px)
-/* smartphones, Android phones, landscape iPhone */ 
-{ 
+@media all and (min-width: 0px) and (max-width: 480px) /* smartphones,
+  Android phones,
+  landscape iPhone */ {
   .topnav {
     overflow: hidden;
-   
-    position: relative; 
+
+    position: relative;
     z-index: 100;
   }
 
   .topnav #myLinks {
     display: none;
     width: 100%;
-   height: 320px;
+    height: 320px;
     float: left;
-    
   }
-  .topnav #myLinks a{
-    
+  .topnav #myLinks a {
     background-color: #333;
- 
   }
-  .topnav #myLinks a:hover{
-   color: black;
-   background-color: rgb(204, 202, 202);
-   width: 100%;
-   height: 30px; 
+  .topnav #myLinks a:hover {
+    color: black;
+    background-color: rgb(204, 202, 202);
+    width: 100%;
+    height: 30px;
   }
   .topnav a {
     color: white;
@@ -517,22 +477,21 @@ span {
     text-decoration: none;
     font-size: 17px;
     display: block;
-    
-  } 
-  .topnav{
+  }
+  .topnav {
     z-index: -999;
-   
+
     height: 50px;
     margin-top: -40px;
   }
-  .nueUi #kb-heading{
+  .nueUi #kb-heading {
     margin-left: 50px;
   }
-  .nueUi .gadgets-introP{
+  .nueUi .gadgets-introP {
     position: absolute;
     margin-bottom: -10px;
   }
-    .topnav a img{
+  .topnav a img {
     position: absolute;
     margin-left: 120px;
     margin-top: 5px;
@@ -543,173 +502,175 @@ span {
     position: absolute;
     right: 0;
     top: 0;
-   
   }
-  
+
   .topnav a:hover {
     background-color: #ddd;
-    color: black; 
+    color: black;
   }
-  
+
   .active {
     background-color: #4f676f;
     color: white;
   }
-  .nueUi{
+  .nueUi {
     width: 100%;
   }
   .info-container {
-   
-   margin: 0 auto;
-   display: grid;
-   grid-template-columns: repeat(1, 1fr);
- 
-   text-align: center;
-   
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    text-align: center;
   }
 
-  .info-container-kb{
-  
+  .info-container-kb {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
     margin-bottom: -300px;
   }
-  .info-container-kb h1{
+  .info-container-kb h1 {
     font-size: 5vw;
   }
-  .info-container-kb .keyboard-img .keyboard{
+  .info-container-kb .keyboard-img .keyboard {
     width: 260px;
     height: 150px;
   }
-  .info-container-kb button{
+  .info-container-kb button {
     position: absolute;
     width: 120px;
     font-size: 12px;
     height: 40px;
     margin-top: 15px;
     margin-left: -60px;
-   
   }
   .info-container-tech {
-   
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
-    
-   }
-   .nueUi .info-container-tech{
-    position:relative;
-    width: 75%;
-    margin-bottom: 50%; 
-   
   }
-  .info-container-tech img{
+  .nueUi .info-container-tech {
+    position: relative;
+    width: 75%;
+    margin-bottom: 50%;
+  }
+  .info-container-tech img {
     width: 100%;
-   
   }
   .info-container-mon {
-   
     margin: 0 auto;
-     display: grid; 
-     grid-template-columns: repeat(1, 1fr); 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
-    
-   }
-  .nueUi .info-container-mon{
-    position:relative;
-    width: 75%;
-    margin-bottom: 50%; 
   }
-.info-container2 .heading p{
-  font-size: 20px;
- 
+  .nueUi .info-container-mon {
+    position: relative;
+    width: 75%;
+    margin-bottom: 50%;
+  }
+  .info-container2 .heading p {
+    font-size: 20px;
+  }
+  .info-container2 .heading {
+    width: 90%;
+  }
+  .info-container2 .heading h1 {
+    font-size: 4vw;
+  }
+  .info-container-mon .heading button {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .info-container-mon h1 {
+    font-size: 3vw;
+  }
+  .info-container-mon .heading {
+    width: 100%;
+    height: 90%;
+  }
+  .info-container-mon .monitor-pic {
+    width: 100%;
+    height: 100%;
+  }
+  .design {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 2vw;
+    margin: 20px;
+  }
+  .icons {
+    width: 70%;
+    margin-left: 50px;
+  }
+  /* .icons a {width: 31px;height: 31px; margin-bottom: 10px;}
+.icons a i{font-size: 20px; ;line-height: 30px; margin-bottom: 5px;} */
+  .icons {
+    width: 70%;
+    margin-bottom: -5%;
+  }
+  .icons a {
+    width: 0px;
+    height: 0px;
+    margin-bottom: 45px;
+    padding-left: 10px;
+  }
+  .icons a i {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+  .icons {
+    margin-left: 45px;
+  }
 }
-.info-container2 .heading{
-   width: 90%;
-} 
-.info-container2 .heading h1{
- font-size: 4vw;
-} 
-.info-container-mon .heading button{
-  position: relative;
-   margin-bottom: 70px; 
-}
-.info-container-mon h1{
-  font-size: 3vw;
-}
-.info-container-mon .heading{
-  width: 100%;
-  height: 90%;
-}
-.info-container-mon .monitor-pic{
-  width: 100%;
-  height: 100%;
-}
-.design{
-  position: absolute;
-bottom: 0;
-left: 0;
-font-size: 2vw;
-margin: 20px;
-}
-.icons{
- width: 70%;
- margin-left: 50px;
-}
-.icons a {width: 31px;height: 31px; margin-bottom: 10px;}
-.icons a i{font-size: 20px; ;line-height: 30px; margin-bottom: 5px;}
-
-}
-@media all and (min-width:481px) and (max-width:767px)
- {
+@media all and (min-width: 481px) and (max-width: 767px) {
   .topnav #myLinks {
     display: none;
     width: 100%;
-   height: 320px;
-    float: left;   
+    height: 320px;
+    float: left;
   }
-  .topnav #myLinks a{ 
+  .topnav #myLinks a {
     background-color: #333;
   }
-  .topnav #myLinks a:hover{
-   color: black;
-   background-color: rgb(204, 202, 202);
-   width: 100%;
-   height: 30px; 
+  .topnav #myLinks a:hover {
+    color: black;
+    background-color: rgb(204, 202, 202);
+    width: 100%;
+    height: 30px;
   }
   .topnav a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    display: block;  
-  } 
-  
+    display: block;
+  }
+
   .topnav a.icon {
     background: black;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-   
   }
-  
+
   .active {
     background-color: #4f676f;
     color: white;
   }
-  .topnav a img{
-
+  .topnav a img {
     position: relative;
     top: -24px;
   }
-  .nueUi .info-container-mon{
+  .nueUi .info-container-mon {
     width: 70%;
   }
-  .nueUi .heading h1{
+  .nueUi .heading h1 {
     position: absolute;
     margin-top: -110px;
   }
@@ -726,197 +687,188 @@ margin: 20px;
     text-align: center;
   }
   .info-container-tech {
-margin-bottom: 150px;
+    margin-bottom: 150px;
   }
-.info-container-tech .tech-pic{
-  width: 70%;
-  height: 80%;
-}
-.nueUi .desk-intro{
-  margin-bottom: 20px;
-}
+  .info-container-tech .tech-pic {
+    width: 70%;
+    height: 80%;
+  }
+  .nueUi .desk-intro {
+    margin-bottom: 20px;
+  }
 
-.heading{
-  width: 100%;
-  margin-bottom: 170px;
-}
-.icons{
-  width: 70%;
-  margin-left: 50px;
- }
-.icons a {width: 35px;height: 35px; margin-bottom: 15px;}
-.icons a i{font-size: 20px; ;line-height: 30px; margin-bottom: 5px;}
-.info-container-kb{
-  
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
- text-align: center;
- grid-row-gap: 200px;
-  margin: 0 auto;
- margin-bottom: 250px;
- 
-}
+  .heading {
+    width: 100%;
+    margin-bottom: 170px;
+  }
+  .icons {
+    width: 70%;
+    margin-left: 50px;
+  }
+  .icons a {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+  }
+  .icons a i {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+  .info-container-kb {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    grid-row-gap: 200px;
+    margin: 0 auto;
+    margin-bottom: 250px;
+  }
 
-.keyboard-img{
- width: 500px;
-  height: 9vh;
-  margin-top: -11px;
-  margin-bottom: 15px;
+  .keyboard-img {
+    width: 500px;
+    height: 9vh;
+    margin-top: -11px;
+    margin-bottom: 15px;
+  }
+  .heading {
+    margin-top: 10px;
+  }
+  .heading h1 {
+    margin-bottom: 30px;
+  }
+  .nueUi {
+    text-align: center;
+    width: 100%;
+  }
 
-
-}
-.heading{
-  
-  margin-top: 10px;
-  
-}
-.heading h1{
-  
-  margin-bottom: 30px;
-}
-.nueUi{
-  text-align: center;
-  width: 100%;
-}
-
-.nueUi hr{
-  display: none;
-  /*
+  .nueUi hr {
+    display: none;
+    /*
   text-align: center;
   margin: 100px;
   width: 50%;
   margin-top: -250px;
 */
-}
-.nueUi button{
-  margin-top: 50px;
-  
-}
-.amazon-btn{
-  position: absolute;
-  margin-bottom: 60px;
-  width: 180px;
-  height: 50px;
-  font-size: 17px;
-  font-weight: bold;
-  justify-content: center;
-  left: 230px
-}
-.info-container-gad{
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 60px;
-  text-align: center;
-}
-.info-container-gad img{
-  width: 2vw;
-  
-}
-.info-container-gad p{
-  margin: 15px;
-  
-}
-
-.info-container-kb{
-
-position: relative;
-
-margin: auto;
-width: 70%;
-
-}
-.info-container-gad .heading h1{
-  margin-top: -350px;
-  margin-left: 70px;
-  
-}
-.nueUi .gadgets-introP{
-  margin-bottom: 120px;
-}
- #rocket-book{
-margin-top: 200px;
-  
-}
-#rocket-book h1{
-  margin-top: -460px;
-}
-#footstand{
-  margin-top: 200px;
-    
   }
-  #footstand h1{
-    margin-top: -500px;
+  .nueUi button {
+    margin-top: 50px;
   }
-.info-container-kb img{
-   width: 1vw;
-   margin-bottom: -42px;
-
-}
-.info-container-mon{
-
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 50px;
-  text-align: center;
-}
-.info-container-mon h1{
-  position: relative;
- 
-  font-size: 3vw;
-}
-.info-container-mon .monitor-pic{
-  width: 100%;
-  height: 100%;
- 
-}
-.info-container-mon .heading button{
-  margin-bottom: -115px;
-}
-.info-container-kb p{
-  font-size: 3vw;
-}
-.info-container2 .heading p{
-  margin-bottom: -15px;
-  font-size: 2.5vw;
-}
-.info-container2{
-  margin-bottom: 5px;
-}
-.info-container2 .heading h1{
-  font-size: 3.5vw;
-}
-}
-
-@media all and (min-width:768px)  and (max-width:992px){
-
-  .info-container-gad{
+  .amazon-btn {
+    position: absolute;
+    margin-bottom: 60px;
+    width: 180px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: center;
+    left: 230px;
+  }
+  .info-container-gad {
     margin: 0 auto;
     display: block;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     text-align: center;
   }
-  .info-container-mon{
+  .info-container-gad img {
+    width: 2vw;
+  }
+  .info-container-gad p {
+    margin: 15px;
+  }
 
+  .info-container-kb {
+    position: relative;
+
+    margin: auto;
+    width: 70%;
+  }
+  .info-container-gad .heading h1 {
+    margin-top: -350px;
+    margin-left: 70px;
+  }
+  .nueUi .gadgets-introP {
+    margin-bottom: 120px;
+  }
+  #rocket-book {
+    margin-top: 200px;
+  }
+  #rocket-book h1 {
+    margin-top: -460px;
+  }
+  #footstand {
+    margin-top: 200px;
+  }
+  #footstand h1 {
+    margin-top: -500px;
+  }
+  .info-container-kb img {
+    width: 1vw;
+    margin-bottom: -42px;
+  }
+  .info-container-mon {
     margin: 0 auto;
     display: block;
     margin-bottom: 50px;
     text-align: center;
   }
-  .icons{
+  .info-container-mon h1 {
+    position: relative;
+
+    font-size: 3vw;
+  }
+  .info-container-mon .monitor-pic {
+    width: 100%;
+    height: 100%;
+  }
+  .info-container-mon .heading button {
+    margin-bottom: -115px;
+  }
+  .info-container-kb p {
+    font-size: 3vw;
+  }
+  .info-container2 .heading p {
+    margin-bottom: -15px;
+    font-size: 2.5vw;
+  }
+  .info-container2 {
+    margin-bottom: 5px;
+  }
+  .info-container2 .heading h1 {
+    font-size: 3.5vw;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .info-container-gad {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 90px;
+    text-align: center;
+  }
+  .info-container-mon {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .icons {
     width: 60%;
     margin-left: 50px;
-   }
-   .icons a {width: 41px;height: 41px; margin-bottom: 10px;}
-   .icons a i{font-size: 25px; ;line-height: 37px; margin-bottom: 5px;}
-   
+  }
+  .icons a {
+    width: 41px;
+    height: 41px;
+    margin-bottom: 10px;
+  }
+  .icons a i {
+    font-size: 25px;
+    line-height: 37px;
+    margin-bottom: 5px;
+  }
 }
-@media all and (min-width:768px)  and (max-width:1280) and (orientation: landscape){
-  .nueUi hr{
-  
+@media all and (min-width: 768px) and (max-width: 1280) and (orientation: landscape) {
+  .nueUi hr {
     text-align: center;
     margin-top: -300px;
   }
-
-  
-   
 }
